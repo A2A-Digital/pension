@@ -1,0 +1,154 @@
+/* css */
+@media only screen and (max-width: 768px) {
+}
+  
+@media only screen and (min-width: 768px){
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+    /* .header
+    ----------------------------------------------------------  */
+
+    /*--------------------------------------------------------
+    /.header */
+    .row {
+        background-color: white;
+        border: solid 1px grey;
+        box-shadow: 10px 0 5px -2px #88888854;
+    }
+    .column {
+        float: left;
+        width: 30%;
+        padding: 10px;
+        max-height: 200px;;
+    }
+    /* .mv
+    ----------------------------------------------------------  */
+    .mv-img__ptn .row{
+        top: -60px;
+        position: relative;
+    }
+    .mv-img__ptn .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        
+      }
+    .point {
+        background-color: orange;
+        color: white;
+        border-radius: 10px;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .mv {
+        position: relative;
+
+    }
+    .mv-img__txt {
+        position:absolute;
+        /* top: 50%; */
+        left: 20%;
+        /* transform: translate( -50%, -50% ); */
+        /* text-align: center; */
+        color: #2B4A7E;
+        font-weight: bold;
+    }
+    .mv-img {
+        width: 100%;
+        height: auto;
+    }
+    /*--------------------------------------------------------
+    /.mv */
+
+    /* .insurance
+    ----------------------------------------------------------  */
+    .insurance {
+        width: 80%;
+        margin: 0px 100px 0px 100px;
+        padding: 20px;
+    }
+    .insurance__text {
+        text-align: center;
+    }
+    .insurance__card {
+        margin: auto;
+        width: 100%;
+        background-color: #FF5995;
+    }
+    .insurance__img {
+        width: 100%;
+        background-color: #FF5995;
+    }
+    /* .insurance
+    ----------------------------------------------------------  */
+    /* .old-planning
+    ----------------------------------------------------------  */
+   .old-planning {
+       padding: 20px;
+       background-color: #F0EFEC;
+
+   }
+   .old-planning h1 {
+       text-align: center;
+   }
+   .old-planning__box{
+       padding: 20px 50px;
+       margin: 0px 70px;
+       border: 1px solid black;
+       border-radius: 5px;
+   }
+   .old-planning__img {
+       background: white;
+       padding: 30px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       width: 80%;
+   }
+    /* .old-planning
+    ----------------------------------------------------------  */
+
+     /* .retire-fund-reason
+    ----------------------------------------------------------  */
+    .retire-fund-reason {
+        background: url("/assets/img/bg_sec_ttl_pc.png");
+    }
+    .retire-fund-reason h1{
+        padding-top: 50px;
+        margin: auto;
+        text-align: center;
+        color: white;
+        height: 80px
+    }
+    /* .retire-fund-reason
+    ----------------------------------------------------------  */
+    
+      /* .assest-mng
+    ----------------------------------------------------------  */
+    .assest-mng {
+        background-color:#E4EEFF;
+        width: auto;
+        height: 1506px;
+    }
+    .assest-mng__header {
+        background-color:#27487D;
+        height: 140px;
+        color:white;
+        text-align: center;
+    }
+    .assest-mg__img {
+        background: white;
+        padding: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 80%;
+    }
+    /* .assest-mng
+    ----------------------------------------------------------  */
+}
