@@ -3,100 +3,504 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SONY MAIN</title>
-    <link href="./assets/css/style.css" rel="stylesheet">
-    <script
-        crossorigin="anonymous"
-        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-        src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
-    </script>
+    <title>New Pension</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <a href="#">
-                <img src="./assets/img/logo-top.png">
-            </a>
-        </header>
-    </div>
-    <div class="mv">
-        <img  class="mv-img" src="./assets/img/cover-top.jpg">
-        <h4 class="mv-img__txt" style="top:15%;">金融・保険のプロと老後を考える</h4>
-        <h1 class="mv-img__txt" style="top:26%;">ソニー生命の</h1>
-        <h1 class="mv-img__txt" style="top:40%;">変額個人年金</h1>
-        <h3 class="mv-img__txt" style="top:57%;left:19%;">（無配当）</h3>
-   </div>
-    <div class="container">
-        <div class="mv">
-            <div class="mv-img__ptn">
-                <div class="row">
-                        <div class="column">
-                        <h5 class="point">POINT 1</h5>
-                        <p>特別勘定の資産の
-                            <span style="color: orange;">運用実績に応じて、</span>
-                            年金額・解約返戻金額が<span style="color: orange;">変動します。</span>
+    <header class="container header">
+        <a href="#">
+            <img src="./assets/img/logo_comp.png">
+        </a>
+    </header>
+    
+    <div class="cover">
+        <img width="100%" class="mv-img-pc" src="./assets/img/img_cover_pc.jpg">
+        <img width="100%" style="display:none;" class="mv-img-sp" src="./assets/img/img_cover_sp.jpg">
+        <div class="container mv">
+            <h4 class="mv-img__txt" style="top:15%; font-size: 18px; color: #2B4A7E; font-weight: normal;">金融・保険のプロと老後を考える</h4>
+            <h2 class="mv-img__txt" style="top:26%; font-size: 50px; margin: 0px; color: #2B4A7E;">ソニー生命の</h1>
+            <h1 class="mv-img__txt" style="top:40%; font-size: 60px; margin: 0px; color: #2B4A7E;">変額個人年金</h1>
+            <h3 class="mv-img__txt" style="top:57%;left:19%; font-size: 24px; margin: 0px; color: #2B4A7E;">（無配当）</h3>
+        </div>
+         <!-- Smart Phone Screen -->
+         <div class="mv-img__card mv-img__card-sp" style="display: none;">
+            <div class="row padding-container">
+                <div class="col-4 col-s-12">
+                    <div style="display:flex; align-items: center;">
+                        <div style="width: 30%;">
+                            <h5 class="card-header">POINT<br>
+                                <span style="font-size: 25px;">1</span>
+                            </h5>
+                        </div>
+                        <div style="width: 70%; margin-left: 50px;">
+                            <p>
+                                特別勘定の資産の
+                                <span style="color: orange;">運用実績に応じて、</span><br>
+                                年金額・解約返戻金額が
+                                <span style="color: orange;">変動します。</span>
                             </p>
                         </div>
-                    <div class="column">
-                      <h5 class="point">POINT 2</h5>
-                      <p>年金支払開始日前に死亡されたときは、
-                        死亡給付金をお支払いします。
-                        </p>
                     </div>
-                    <div class="column">
-                      <h5 class="point">POINT 3</h5>
-                      <p>高度障害状態・身体障害の状態になられ
-                        たときは、以後の保険料のお払い込みは
-                        不要です。</p>
-                    </div>
-                  </div>                  
-            </div>
-       </div>
-       <main>
-           <section class="insurance">
-               <p class="insurance__text">新型コロナウイルスへの感染予防対策を踏まえたソニー生命の対応について</p>
-               <img class="insurance__img" src="./assets/img/img_announce_pc.png">
-           </section>
-           <section class="old-planning">
-               <h1 style="margin-top: 0px;color:#008767;">
-                   将来の計画や夢を実現しながら<br>
-                   ゆとりある老後を過ごすために<br>
-                   今のうちから「準備」を始めませんか。
-               </h1>
-               <h4 style="text-align: center; padding-top: 50px;">老後の必要資金準備のための<br>
-                生存保障に重点を置いた年金保険です。</h4>
-                <div class="old-planning__box">
-                    <p style="text-align: center; padding-top: 50px;">個人年金保険とは？</p>
-                    <p>個人年金とは、生命保険の一種で、国民年金・厚生年金・共
-                        済年金などの公的年金とは別に保険会社などと私的に契約する年金保険。
-                        老後の資金を計画的にご準備いただけます。</p>
                 </div>
-               <img class="old-planning__img" src="./assets/img/img_about_pc.png">
-           </section>
-           <section class="retire-fund-reason">
-               <h1>変額個人年金で老後資金つくりをする理由</h1>
-           </section>
-           <section class="assest-mng">
-               <div class="assest-mng__header">
-                   <h1 style="text-align: center; padding-top: 50px;">資産の運用実績に基づき年金額が変動（増減）する年金保険</h1>
-               </div>
-               <img class="" src="./assets/img/img_point1_diagram_pc.png   ">
-               <div class="">
-                   <h1 style="text-align: center;">ご契約例</h1>
-                   <div>
-                       <div>
-                           <button>ご契約例（月払の場合）</button>
+
+                <div class="col-4 col-s-12">
+                    <div style="display:flex; align-items: center;">
+                        <div style="width: 30%;">
+                            <h5 class="card-header">POINT<br>
+                                <span style="font-size: 25px;">1</span>
+                            </h5>
                         </div>
-                        <div>
-                            ●被保険者：35歳　●基本年金額：100万円　●年金種類：確定年金　●年金支払期間：10年　●年金支払開始年齢：60歳　●保険料払込期間：60歳まで　●個別扱月払保険料　男性：20,550円　女性：20,490円
+                        <div style="width: 70%; margin-left: 50px;">
+                            <p>
+                                年金支払開始日前に死亡されたときは、<br>
+                                <span style="color: orange;">死亡給付金をお支払いします。</span>
+                            </p>
                         </div>
-                   </div>
-                   <h5 style="text-align: center;">特別勘定の資産の運用実績例表（ご契約の場合）</h5>
-                   <img class="" src="./assets/img/img_point1_table_pc.png" alt="">
-               </div>
-           </section>
+                    </div>
+                </div>
+                <div class="col-4 col-s-12">
+                    <div style="display:flex; align-items: center;">
+                        <div style="width: 30%;">
+                            <h5 class="card-header">POINT<br>
+                                <span style="font-size: 25px;">1</span>
+                            </h5>
+                        </div>
+                        <div style="width: 70%; margin-left: 50px;">
+                            <p>
+                                高度障害状態・身体障害の状態になられたときは、<br>
+                                以後の<span style="color: orange;">保険料のお払い込みは不要です。</span>
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    </main>
-<script src="./assets/js/common.js"></script>
+    
+    <div class="container">
+        <!-- PC Screen -->
+        <div class="mv-img__card mv-img__card-pc">
+            <div class="row padding-container">
+                <div class="col-4 col-s-12">
+                    <h5 class="card-header">POINT 1</h5>
+                    <p>
+                        特別勘定の資産の<span style="color: orange;">運用実績に応じて、</span>
+                        年金額・解約返戻金額が<span style="color: orange;">変動します。</span>
+                    </p>
+                </div>
+                <div class="col-4 col-s-12">
+                    <h5 class="card-header">POINT 2</h5>
+                    <p>年金支払開始日前に死亡されたときは、<br>
+                        <span style="color: orange;">死亡給付金をお支払いします。</span>
+                    </p>
+                </div>
+                <div class="col-4 col-s-12">
+                    <h5 class="card-header">POINT 3</h5>
+                    <p>
+                        高度障害状態・身体障害の状態になられ<br>
+                        たときは、以後の<span style="color: orange;">保険料のお払い込みは</span><br>
+                        <span style="color: orange;">不要です。</span>
+                    </p>
+                </div>
+            </div>                  
+        </div>
+        <div class="insurance">
+            <p class="insurance__text">
+                <u>新型コロナウイルスへの感染予防対策を踏まえたソニー生命の対応について</u>
+            </p>
+            <img class="insurance__img" src="./assets/img/img_announce_pc.png">
+        </div>
+        <section class="old-planning padding-container">
+            <h1 style="color:#008767; ">
+                将来の計画や夢を実現しながら<br>
+                ゆとりある老後を過ごすために<br>
+                今のうちから「<u style="text-decoration-color: #FFE77A;text-decoration-thickness: 10px;">準備」</u>を始めませんか。
+            </h1>
+            <h4 style="font-size:25px; font-weight:normal;">老後の必要資金準備のための<br>
+             生存保障に重点を置いた年金保険です。</h4>
+             <div class="old-planning__box padding-container">
+                <h4 style="font-size:25px; font-weight:normal;">個人年金保険とは？</h4>
+                 <p>個人年金とは、生命保険の一種で、国民年金・厚生年金・共
+                     済年金などの公的年金とは別に保険会社などと私的に契約する年金保険。
+                     老後の資金を計画的にご準備いただけます。</p>
+             </div>
+             <div style="background-color: white; padding-bottom: 20px;">
+                <img class="old-planning__img" src="./assets/img/img_about_pc.png">
+                <p>※1. 出典：公益財団法人生命保険文化センター「令和元年度 生活保障に関する調査」</p>
+                <p>※2. 出典：総務省統計局「令和元年 家計調査」生活費は消費支出と非消費支出の合計</p>
+             </div>
+        </section>
+        <div class="retire-fund-reason">
+            <h1>変額個人年金で老後資金つくりをする理由</h1>
+        </div>  
+        <section class="asset-mng">
+            <div class="asset-mng__header">
+                <div class="number-1"><p>1</p></div>
+                <h1 style="color: white;">
+                    資産の運用実績に基づき、<br>
+                    年金額が変動（増減）する年金保険
+                </h1>
+            </div>
+            <div class="asset-mng__content padding-container">
+                <div class="content-header padding-container">
+                    <h2>仕組み図</h2>
+                    <div id="toggle-1" class="toggle"><img id="arrow-1" src="./assets/img/img_circle_arrow_down.png"></div>
+                </div>
+                <div id="content-1" class="asset-mng__content">
+                    <img 
+                        class="padding-container"  
+                        style="padding-top: 20px;padding-bottom: 20px; background-color: white;" 
+                        width="88.5%" 
+                        src="./assets/img/img_point1_diagram_pc.png">
+                </div>
+            </div>
+            <div class="asset-mng__content padding-container">
+                <div class="content-header padding-container">
+                    <h1>ご契約例</h1>
+                    <div id="toggle-2" class="toggle"><img id="arrow-2" src="./assets/img/img_circle_arrow_down.png"></div>
+                </div>
+
+                <div id="content-2" class="asset-mng__content ">
+                    <div style="background-color: white;">
+                        <div class="row padding-container">
+                            <div class="col-3" 
+                            style="    
+                                background-color: #808080;
+                                padding: 35px 0px;
+                                text-align: center;
+                                color: white;
+                                "
+                            >
+                            ご契約例（月払の場合</div>
+                            <div class="col-9">●被保険者：35歳　●基本年金額：100万円　●年金種類：確定年金　●年金支払期間：10年　●年金支払開始年齢：60歳　●保険料払込期間：60歳まで　●個別扱月払保険料　男性：20,550円　女性：20,490円</div>
+                        </div>
+                        <h2 style="text-align: center;">特別勘定の資産の運用実績例表（ご契約の場合）</h2>
+                        <img 
+                            class="padding-container"  
+                            style="padding-top: 20px;padding-bottom: 20px; background-color: white; margin-bottom: 20px;" 
+                            width="88.5%" 
+                            src="./assets/img/img_point1_table_pc.png"
+                        >
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="asset-mng">
+            <div class="asset-mng__header">
+                <div class="number-1"><p>2</p></div>
+                <h1>運用方針が異なる8つの特別勘定</h1>
+            </div>
+            <div class="asset-mng__content padding-container">
+                <h3 style="text-align: center; font-weight: normal;">
+                    特別勘定とは、変額保険と変額個人年金保険にかかる資産を<br>
+                    他の保険種類の資産と区分し、独立して管理・運用を行う勘定のことです。<br><br>
+                    ソニー生命では運用方針の異なる8つの特別勘定の中から運用対象として１つないし<br>
+                    複数の特別勘定をお選びいただけます。</h3 style="">
+                <div class="content-header padding-container">
+                    <h3>運用方針が異なる8つの特別勘定</h3>
+                    <div id="toggle-3" class="toggle"><img id="arrow-3" src="./assets/img/img_circle_arrow_down.png"></div>
+                </div>
+                <div id="content-3" class="asset-mng__content">
+                    <img 
+                        class="padding-container"  
+                        style="padding-top: 20px;padding-bottom: 20px; background-color: white; margin-bottom: 20px;" 
+                        width="88.5%" 
+                        src="./assets/img/img_point2.png">
+                </div>
+            </div>
+        </section>
+        <img width="100%" style="margin-top: 30px;"src="./assets/img/img_benefit3_pc.png">
+        <section class="asset-mng">
+            <div class="asset-mng__header">
+                <div class="number-1"><p>3</p></div>
+                <h1 style="padding: 0px 200px;">経営の健全性維持を重視するソニー生命の
+                    個人年金保険です。</h1>
+            </div>
+            <div class="asset-mng__content padding-container">
+                <h3 style="text-align: center">
+                    個人年金保険は将来に関わる保障です。<br>
+                    契約してから年金の受け取り完了まで長期にわたる保険になりますので、<br>
+                    保険会社の安全性はとても重要です。</h3>
+                <div class="content-header padding-container">
+                    <h1>保険会社の健全性を示す指標</h1s>
+                    <div id="toggle-4" class="toggle"><img id="arrow-4" src="./assets/img/img_circle_arrow_down.png"></div>
+                </div>
+                <div id="content-4" class="asset-mng__content">
+                    <div style="background-color: white;">
+                        <div class="row padding-container" style="padding-top: 40px;">
+                            <div class="col-6" style="text-align: center;">
+                                <h2>
+                                    2019年度末の<br>
+                                    ソルベンシー・マージン比率は
+                                </h2>
+                                <h1 style="color:red; font-size: 50px;">2,476.3％</h1>
+                                <h2>と、高い水準を確保しています。</h2>
+                            </div>
+                            <div class="col-6" style="background-color: #EAEAEA;">
+                                <p style="font-size:20px; font-weight: normal; line-height: 40px;">
+                                    ソルベンシー・マージン＝[支払余力]<br>
+                                    大震災や株の大暴落など、通常の予測を超えて発生するリスクに対して、<br>
+                                    どれくらい余力を持っているか判断するための行政監督上の指標のひとつで<br>
+                                    す</p>
+                                
+                            </div>
+                        </div>
+                        <div class="row padding-container">
+                            <div class="col-12">
+                                <h5 style="font-weight: normal; font-size: 14px;">
+                                    ※ソルベンシー・マージン比率はソルベンシー・マージン総額（1,412,772百万円）÷リスクの合計額（114,101百万円）の1/2×100で算出したものです。<br>
+                                    ※上記は、保険業法施行規則第86条、第87条、平成8年大蔵省告示第50号の規定に基づいて算出しております。最低保証リス<br>
+                                    ク相当額は標準的方式を用いて算出しています。なお、平成22年内閣府令第23号、平成22年金融庁告示第48号により、ソルベ<br>
+                                    ンシー・マージン総額およびリスクの合計額の算出基準について一部変更（マージン算入の厳格化、リスク計測の厳格化・精緻化<br>
+                                    等）がなされております。
+                                </h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="retire-fund-reason" style="height: 200px">
+            <h1 style="font-size: 30px;">新型コロナウイルスへの感染予防対策を<br>
+                踏まえたソニー生命の対応について
+            </h1>
+        </div>  
+        <p style="padding-left: 20px;">
+            ソニー生命では、「新型コロナウイルス感染予防対策」として、保険相談にあたっては、<br>
+            お客さまと従業員の健康と安全の確保を最優先とし、以下の取組みを継続して実施しています。 
+            
+        </p>
+        <ul style="color: #2B4A7E;">
+            <li style="padding: 10px 0">毎日の検温実施・記録を徹底する </li>
+            <hr style="border-top: 1px dashed #8799B6;">
+            <li style="padding: 10px 0">除菌（手洗い・うがい・アルコール消毒等）を徹底する  </li>
+            <hr style="border-top: 1px dashed #8799B6;">
+            <li style="padding: 10px 0">お客さま面談時のマスク着用を遵守する </li>
+            <hr style="border-top: 1px dashed #8799B6;">
+            <li style="padding: 10px 0">お客さまへの訪問・面談の際は、お客さまへ事前に面談への同意・希望を確認する  </li>
+            <hr style="border-top: 1px dashed #8799B6;">   
+            <li style="padding: 10px 0">従業員自身の体調がすぐれない場合は、直接の面談による営業活動や出社を禁止する  </li>
+            <hr style="border-top: 1px dashed #8799B6;">   
+            <li style="padding: 10px 0">お客さまへ従来の直接の面談に加え、リモートでの対応が可能であることをお伝えする   </li>
+            <hr style="border-top: 1px dashed #8799B6;">   
+            <li style="padding: 10px 0">高齢者や基礎疾患があるお客さまとの面談は、極力リモートでの対応をご案内する   </li>
+        </ul>
+        <div>
+            <div class="retire-fund-reason">
+                <h1>「選べる」保険の相談スタイル</h1>
+            </div> 
+            <div class="row">
+                <div class="col-6" style="margin-right: auto;">
+                    <div class="row" style="background: #F1F1F1;">
+                        <div class="col-6">
+                            <img width="100%" src="./assets/img/img_flow_choice1.jpg">
+                        </div>
+                        <div class="col-6" style="text-align: center;">
+                            <p style="color: #008767;">直接お会いしてご相談</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row" style="background: #F1F1F1;;" >
+                        <div class="col-6">
+                            <img width="100%" src="./assets/img/img_flow_choice2.jpg">
+                        </div>
+                        <div class="col-6">
+                            <p style="color: #008767;">直接お会いしてご相談</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 style="text-align: center; font-weight: bold; color: #FF900D;">
+                ソニー生命なら
+                <u style="text-decoration-color: #FF900D;text-decoration-thickness: 2px;">
+                    ご契約もオンラインで可能！
+                </u>
+            </h3>
+            <p style="text-align: center; font-size: 10px;">
+                ※1  保険商品によってはオンラインでご契約いただけない商品もございます。ご了承ください。   
+            </p>
+        </div>
+        <section class="asset-mng" style="padding-bottom: 0px;">
+            <div class="retire-fund-reason" style="position: relative;">
+                <h1>ご相談の流れ</h1>
+                <div id="toggle-5" class="toggle"><img id="arrow-5" src="./assets/img/img_circle_arrow_down.png"></div>
+            </div>  
+            <div id="content-5"class="asset-mng__content">
+                <div class="padding-container">
+                    <img 
+                        style="display: block;
+                                margin-left: auto;
+                                margin-right: auto;
+                                margin-top: -7px;" 
+                        src="./assets/img/arrow-down-green.png"
+                    >
+                    <img 
+                        style="width: 88%; margin: 20px 0"
+                        class="padding-container"  
+                        src="./assets/img/img_flow_step1_pc.png"
+                    >
+                    <img 
+                        style="display: block;
+                                margin-left: auto;
+                                margin-right: auto;" 
+                        src="./assets/img/arrow-down.png"
+                    >
+                    <img 
+                        style="width: 88%; margin: 20px 0"
+                        class="padding-container"  
+                        src="./assets/img/img_flow_step2_pc.png"
+                    >
+                    <img 
+                        style="display: block;
+                                margin-left: auto;
+                                margin-right: auto;" 
+                        src="./assets/img/arrow-down.png"
+                    >
+                    <img 
+                        style="width: 88%; margin: 20px 0"
+                        class="padding-container"  
+                        src="./assets/img/img_flow_step3_pc.png"
+                    >
+                    <img 
+                        style="display: block;
+                                margin-left: auto;
+                                margin-right: auto;" 
+                        src="./assets/img/arrow-down.png"
+                    >
+                    <img 
+                        style="width: 88%; margin: 20px 0"
+                        class="padding-container"  
+                        src="./assets/img/img_flow_step4_pc.png"
+                    >
+                    <p>＜オンライン相談の注意事項＞</p>
+                    <ol>
+                        <li>パケット通信料について
+                            スマートフォンをご利用の場合、別途携帯会社のパケット通信料（お客さま負担）が発生いたします。「パケット放題」やWi-Fiのご利用など、事前に料金プランや通信環境をお確かめの上で実施してください。
+                            ※オンライン相談は1時間あたり約2ギガバイト（2GB）のパケット通信が発生します。
+                        </li>
+                        <li>ご利用環境について
+                            お客さまのご利用環境によっては、本サービスをご利用できない場合があります。
+                        </li>
+                        <li>
+                            ご留意ください。
+                            保険のお申し込みについて
+                            ライフプランナーと直接面会せずに保険のお申し込みも可能となります。
+                        </li>
+                    </ol>
+                </div>
+                <div id="toggle-close-5" style="padding-top:20px; padding-bottom:20px;background-color: #26997E; text-align: center;">
+                    <div style="background-color:white; border-radius:50px; padding:10px; display: inline-block;">
+                        閉じる
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="" style=" margin-top: 20px;">
+            <div style="margin-top: 20px; border: 1px solid black; padding: 10px 80px;">
+                <p>●商品の概要を説明しています。詳しくは商品パンフレットをご覧ください。
+                ご契約の際には、「ご契約のしおり・約款」「契約概要」「注意喚起情報」を必ずご覧ください。</p>
+                <p >商品パンフレット <a href="#"><img src="./assets/img/img_pdf_pc.png">変額個人年金保険（無配当）</a></p>
+            </div>
+            <div>
+                <h1 style="text-align: center; color: #008667;  ">
+                    個人年金保険を考えるポイントは、<br>
+                    <u style="text-decoration-color: #FFE77A;text-decoration-thickness: 10px;">これから先の人生設計</u> にあります。
+                </h1>
+            </div>
+            <div class="padding-container">
+                <img src="./assets//img/img_consider_pc.png" style="width: 100%;">
+            </div>
+            <div style="text-align: center;">
+                <h4>「ひとりで考えるのは難しそう…」という方へ</h4>
+                <h2>ソニー生命のライフプランナーなら<br>
+                    個人年金保険の詳しい説明はもちろん<br>
+                    一人ひとりに合わせたプランを一緒に考えます。
+                </h2>
+                <p>
+                    ソニー生命のライフプランナーは、金融全般に豊富な知識を持つプロフェッショナル。<br>
+                    保険はもちろんのこと、家計や投資・貯蓄といった<br>
+                    幅広い視点でお客さまの悩みに寄り添っていきます。
+                </p>
+            </div>
+        </section>
+        <section>
+            <img class="img-width" src="./assets/img/img_benefit_ttl.png">
+            <img class="img-width" src="./assets/img/img_benefit1_pc.png">
+            <img class="img-width" src="./assets/img/img_benefit2_pc.png">
+            <img class="img-width" src="./assets/img/img_benefit3_pc.png">
+            <img class="img-width" src="./assets/img/img_announce_pc.png">
+            <p style="text-align: center; color: red;">お電話でのご相談はこちら</p>
+            <div style="border: 1px solid grey; text-align: center;">
+                <p>ソニー生命カスタマーセンター</p>
+                <p style="color: red;">0120-158-679</p>
+                <h6>営業時間 9:00～17:30​ ​</h6>
+                <h6>※日曜日、ゴールデンウィーク、年末年始を除く​​</h6>
+            </div>
+            <div>
+                <h5>ご注意事項</h5>
+                <ul>
+                    <li>上記は2021年1月2日時点の保険料および当社の取扱に基づき作成しております。</li>
+                    <li>商品の概要を説明しています。詳しくは商品パンフレットをご覧ください。ご契約の際には、「ご契約のしおり・約款」「契約概要」「注意喚起情報」を必ずご覧ください。</li>
+                    <li>
+                        重要事項説明書（補足資料）の確認はこちら 資産運用のご経験が少ない方におかれましては、<br>
+                        資産運用スタートブック」または「変額 虎の巻」をご覧ください。<br>
+                        資産運用スタートブック<br>
+                        変額 虎の巻
+                    </li>
+                    <li>
+                        変額保険のご検討にあたっては、以下もご参考にご利用ください。<br>
+                        リスク許容度ナビ<br>
+                        ┗お客さまの資産運用に対する考え方をお伺いし、リスク許容度をご案内しています。<br>
+                        ポートフォリオ・シミュレーション<br>
+                        ┗資産形成のための運用スタンスを自由に調整して、最適なポートフォリオを構築することができます。また、過去や将来のパフォーマンス分析など各種シミュレー<br>
+                        ションを行えます。<br>
+                    </li>
+                    <li>
+                        ご注意<br>
+                        ※変額個人年金保険は生命保険です。預金とは異なり、元本割れすることがあります。<br>
+                        ※変額個人年金保険は、準用する金融商品取引法の対象となる保険商品です。 商品の詳細につきましては商品パンフレット（PDF）をご覧ください。<br>
+                        ※お申し込みに際しては、事前に交付される「重要事項説明書（注意喚起情報・契約概要）」「ご契約のしおり・約款」「特別勘定のしおり」をご確認ください。<br>
+                        ※変額個人年金保険は、運用実績に基づいて年金額・解約返戻金が変動（増減）するため、損失が生じるおそれがあります。<br>
+                        ※各特別勘定への資産の繰入比率を変更した場合や、積立金を移転した場合、選択された特別勘定の種類によっては運用リスクが変わることがあります。<br>
+                        ※変額個人年金保険は、お払い込みいただく保険料のうち、その一部は保険契約の締結・維持・保障・保険料払込免除などに要する費用等に充てられ、それらを除いた金額が特別勘定で運用されます。また、ご契約後も定期的に積立金から保険契約の維持・死亡保障などに要する<br>
+                        費用や特別勘定の運営に要する費用等が控除されます。<br>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <!-- <footer class="footer">
+        <img class="footer-pc" style="width: 100%;  " src="./assets/img/img_footer_cv_pc.png">
+        <img class="footer-sp" style="display: none;" src="./assets/img/img_footer_cv_sp.png">
+    </footer> -->
+    <script src="./assets/js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+        $("#toggle-1").click(function(){
+            $("#content-1").slideToggle("slow");
+        });
+        $("#toggle-2").click(function(){
+            $("#content-2").slideToggle("slow");
+        });
+        $("#toggle-3").click(function(){
+            $("#content-3").slideToggle("slow");
+        });
+        $("#toggle-4").click(function(){
+            $("#content-4").slideToggle("slow");
+        });
+        $("#toggle-5").click(function(){
+            $("#content-5").slideToggle("slow");
+        });
+        $("#toggle-close-5").click(function(){
+            $("#content-5").slideUp("hide");
+        });
+    });
+    </script>
 </body>
 </html>
