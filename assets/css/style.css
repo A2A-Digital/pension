@@ -261,8 +261,8 @@ h2 {
   width: 80%;
 }
 .old-planning__box {
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 2px solid #C3BFB3;
+  border-radius: 6px;
   background-color: white;
 }
 
@@ -270,9 +270,25 @@ h2 {
 ----------------------------------------------------------  */
 .retire-fund-reason {
   background: url("/assets/img/bg_sec_ttl_pc.png");
-  margin-top: 5vh;
+  margin-top: 50px;
+  position: relative;
 }
 .retire-fund-reason h1 {
+  padding-top: 50px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  height: 80px;
+}
+.retire-fund-reason-header {
+  background-color: #26997E;
+  margin-top: 50px;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.retire-fund-reason-header h1 {
   padding-top: 50px;
   margin: auto;
   text-align: center;
@@ -283,7 +299,8 @@ h2 {
 /* Asset mng */
 .asset-mng {
   background-color: #e4eeff;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
+  padding-top: 0px;
 }
 .asset-mng__header {
   background-color: #27487d;
@@ -291,19 +308,19 @@ h2 {
   text-align: center;
   padding-top: 5vh;
   padding-bottom: 5vh;
-  margin-top: 150px;
+  margin-top: 100px;
   position: relative;
 }
 .number-1 {
   background-color: #ff8080;
   border-radius: 50%;
-  width: 10vw;
-  height: 10vw;
+  width: 96px;
+  height: 96px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: -5vw;
+  top: -3vw;;
   left: 20px;
   font-size: 40px;
   border: solid 2px white;
@@ -316,7 +333,7 @@ h2 {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-top: 30px;
+  margin-top:  50px;
   background-color: #f2f2f2;
   position: relative;
   cursor: pointer;
