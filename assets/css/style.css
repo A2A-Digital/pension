@@ -9,7 +9,9 @@ body {
   width: 80%;
   margin: auto;
 }
-
+.orange {
+  color: #F47F00;
+}
 h2 {
   margin: 0px;
 }
@@ -17,7 +19,6 @@ h2 {
 .mv {
   width: 80%;
   margin: auto;
-  margin-bottom: 100px;
   padding-top: 20px;
 }
 
@@ -28,21 +29,21 @@ h2 {
 hr {
   border-bottom: 0px;
 }
-.row {
-  display: flex;
-  font-weight: bold;
-}
-.row::after {
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
   content: "";
-  clear: both;
   display: table;
+  clear: both;
 }
 [class*="col-"] {
   width: 100%;
 }
 [class*="col-"] {
   float: left;
-  padding: 1vw;
+  padding: 0 10px;
 }
 @media (min-width: 768px) {
   /* For desktop: */
@@ -131,7 +132,7 @@ h2 {
 
 .container {
   margin: auto;
-  width: 80%;
+  max-width:  73.20644216691069vw;
 }
 
 @media (max-width: 768px) {
@@ -157,15 +158,17 @@ h2 {
   }
 }
 .padding-container {
-  padding: 0 4vw;
+  padding: 0  2.6603221083455346vw;
 }
 
 .img-width {
   width: 100%;
 }
 /* cover section */
-.cover {
+.hero-img {
   position: relative;
+  width: 100%;
+  height: 440px;
 }
 .table_sp {
   display: none;
@@ -183,7 +186,8 @@ h2 {
     margin: auto;
   }
   .mv {
-    width: 71%;
+    position: absolute;
+    color: #2B4A7E;
   }
 
   .table_sp {
@@ -199,16 +203,57 @@ h2 {
 .mv-img-pc {
   position: absolute;
   z-index: -1;
+  width: 100%;
 }
 
 /* Card Section */
 .mv-img__card {
   background-color: white;
   position: relative;
-  margin-top: -75px;
   border: 1px solid lightgrey;
   opacity: 0.985;
 }
+
+/* Card Section */
+.card-container {
+  padding: 1vw;
+  display: inline-flex;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 10px 0 5px -2px #888;
+  position: relative;
+  opacity: 0.97;
+}
+.card {
+  width: 100%;
+  height: 10vw;
+  padding:0.5vw 0;
+}
+.card-title {
+  background-color: orange;
+  height: 1.9282576866764276vw;
+  margin:1vw 1vw;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.054172767203514vw;
+  text-align: center;
+  padding-top: 1vw;
+  opacity: 1;
+}
+.card-title .card-num {
+  font-size:  1.9033674963396778vw;
+  position:absolute;
+  transform: translateY(-27%);
+}
+.card-content {
+  width: auto;
+  font-size: 1.171303074670571vw;
+  margin:1vw 1vw;
+  color: #2B4A7E;
+}
+
+
+
 @media (max-width: 768px) {
   .mv-img__card {
     /* bottom: 350px; */
@@ -224,13 +269,7 @@ h2 {
     display: none;
   }
 }
-.mv-img__card .card-header {
-  background-color: orange;
-  text-align: center;
-  padding: 20px;
-  border-radius: 10px;
-  color: white;
-}
+
 
 /* Insurance */
 .insurance__img {
@@ -238,14 +277,14 @@ h2 {
   margin-right: auto;
   display: block;
   width: 90%;
-  height: 140px;
+  height: 10.248901903367496vw;
 }
 .insurance__text {
   text-align: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-bottom: 1.8301610541727673vw;
+  margin-top: 1.8301610541727673vw;
   color: #008767;
-  font-weight: bold !important;
+  font-size:  1.0248901903367496vw;
 }
 /* Old planning */
 .old-planning {
@@ -258,21 +297,26 @@ h2 {
 .old-planning__img {
   margin-top: 5vh;
   background-color: white;
-  padding: 7vw;
-  width: 80%;
+  width: 100%;
+  text-align: start;
 }
 .old-planning__box {
   border: 2px solid #C3BFB3;
   border-radius: 6px;
   background-color: white;
 }
-
+.old-planning__text {
+  text-align: start;
+  padding-left: 5vw;
+}
 /* .retire-fund-reason
 ----------------------------------------------------------  */
 .retire-fund-reason {
-  background: url("/img/bg_sec_ttl_pc.png");
+  background: url("../img/bg_sec_ttl_pc.png");
   margin-top: 50px;
   position: relative;
+
+  font-weight: normal;
 }
 .retire-fund-reason h1 {
   padding-top: 50px;
@@ -309,35 +353,47 @@ h2 {
   text-align: center;
   padding-top: 5vh;
   padding-bottom: 5vh;
-  margin-top: 100px;
+  margin-top: 3.6603221083455346vw;
   position: relative;
+  border-top-left-radius: 0.36603221083455345vw;
+  border-top-right-radius: 0.36603221083455345vw;
+
 }
 .number-1 {
   background-color: #ff8080;
   border-radius: 50%;
-  width: 96px;
-  height: 96px;
+  width:  7.027818448023426vw;
+  height: 7.027818448023426vw;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   top: -3vw;;
   left: 20px;
-  font-size: 40px;
+  font-size: 2.4890190336749636vw;
   border: solid 2px white;
 }
 .content-header {
   background-color: white !important;
   border-bottom: 2px solid lightgrey !important;
+
 }
 .asset-mng__content .content-header {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-top:  50px;
+  margin-top:  3.1961932650073206vw;
   background-color: #f2f2f2;
   position: relative;
   cursor: pointer;
+}
+.asset-mng__content .img-card {
+  width: 100%;
+}
+.asset-mng__content {
+  background-color: white;
+  width: 80%;
+  margin: auto;
 }
 @media (max-width: 768px) {
   .asset-mng__content .row {
@@ -349,6 +405,8 @@ h2 {
   position: absolute;
   top: 24%;
   cursor: pointer;
+  width: 2.9282576866764276vw;
+  height: 2.9282576866764276vw;
 }
 
 /* Footer */
@@ -359,7 +417,7 @@ h2 {
   width: 100%;
   color: white;
   text-align: center;
-  background-color: #fff0da;
+
 }
 @media (max-width: 768px) {
   .footer-pc {
