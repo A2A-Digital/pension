@@ -125,7 +125,7 @@ hr {
 
 /* Insurance */
 .insurance {
-  margin-top: 60px;
+  margin-top: 130px;
   text-align: center;
 }
 
@@ -370,6 +370,7 @@ h2 {
   margin: auto;
   width: 70%;
   margin-top: 2%;
+  max-width: 1000px;
 }
 
 .padding-container {
@@ -449,6 +450,9 @@ h2 {
   }
   .contract_example {
     display: block;
+  }
+  .navigation {
+    width: 90%;
   }
 }
 
@@ -539,5 +543,54 @@ h2 {
   .footer-sp {
     display: block !important;
     width: 100%;
+  }
+}
+
+.indtroduction_one {
+  font-size: 30px;
+}
+.indtroduction_two {
+  font-size: 70px;
+}
+
+.indtroduction_three {
+  font-size: 60px;
+}
+
+.indtroduction_four {
+  font-size: 40px;
+}
+
+@media (max-width: 800px) {
+  .indtroduction_two {
+    font-size: 40px;
+  }
+
+  .indtroduction_one {
+    font-size: 20px;
+  }
+
+  .indtroduction_three {
+    font-size: 30px;
+  }
+  .indtroduction_four {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .indtroduction_two {
+    font-size: 50px;
+  }
+
+  .indtroduction_one {
+    font-size: 30px;
+  }
+
+  .indtroduction_three {
+    font-size: 40px;
+  }
+  .indtroduction_four {
+    font-size: 30px;
   }
 }
