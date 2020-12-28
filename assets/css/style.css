@@ -35,7 +35,8 @@ hr {
 
 /* Remove extra left and right margins, due to padding */
 .row {
-    margin: 0 -5px;
+    margin: auto;
+    display: flex       ;
 }
 
 /* Clear floats after the columns */
@@ -51,7 +52,7 @@ hr {
 
 [class*="col-"] {
     float: left;
-    padding: 0 10px;
+    padding:0;
 }
 
 @media (min-width: 768px) {
@@ -341,7 +342,39 @@ h2 {
     color: #008767;
     font-size: 1.0248901903367496vw;
 }
+.insurance-choice {
+    display: flex;
+}
+.insurance-choice__card {
+    background: #F1F1F1;
+    height: 8.63836017569546vw;
+    width: 35.825036603221086vw;
+    margin: 25px 0;
+}
+.insurance-choice__img {
+    height: 7.906295754026354vw;
+    width: 14.595168374816984vw;
+    padding: 0.36603221083455345vw;
 
+}
+.insurance-choice__txt {
+    margin: auto;
+    text-align: center;
+    font-size:  1.5373352855051245vw;
+    padding:  2vw 0;
+    transform: translateY(1.196193vw);
+    color: #008767;
+    margin: 0  2.1961932650073206vw;
+}
+.precaution-header {
+    font-size: 1.3177159590043923vw;
+}
+.precaution-header h5{
+    font-weight: normal;
+}
+.precaution-content {
+    font-size: 1.171303074670571vw;
+}
 /* Old planning */
 .old-planning {
     background-color: #f0efec;
@@ -470,7 +503,16 @@ h2 {
     width: 80%;
     margin: auto;
 }
+.asset-mng__content__txt {
+    font-size: 1.7569546120058566vw;
+    font-weight: normal;
+    text-align: center;
+    padding: 1.8301610541727673vw 0;
+}
 
+.arrow-down__img {
+
+}
 @media (max-width: 768px) {
     .asset-mng__content .row {
         display: block;
