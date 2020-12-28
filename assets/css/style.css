@@ -4,7 +4,6 @@
 }
 
 body {
-  min-width: 400px;
   margin: 0;
   letter-spacing: 0px;
   font-family: DIN;
@@ -12,13 +11,6 @@ body {
   max-width: 1600px;
   margin: auto;
   min-width: 350px;
-}
-
-.navigation {
-  padding-top: 30px;
-  height: 60px;
-  width: 70%;
-  margin: auto;
 }
 
 .orange {
@@ -36,7 +28,7 @@ h2 {
 .mv {
   width: 70%;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 76px;
 }
 
 @font-face {
@@ -89,8 +81,7 @@ hr {
   display: inline-flex;
   width: 100%;
   position: relative;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  opacity: 0.8;
+  background: #ffffff;
   height: 180px;
   box-shadow: 2px 0px 2px #00000033;
   padding: 2% 0px;
@@ -98,7 +89,8 @@ hr {
 
 .card {
   width: 300px;
-  margin-left: 5%;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .card-title {
@@ -125,7 +117,7 @@ hr {
 
 /* Insurance */
 .insurance {
-  margin-top: 130px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -144,8 +136,7 @@ hr {
 
 .insurance__text {
   color: #008767;
-  font-size: 24px;
-  margin-left: 6%;
+  font-size: 14px;
 }
 .insurance-choice {
   display: flex;
@@ -265,6 +256,7 @@ hr {
   border-top-left-radius: 0.36603221083455345vw;
   border-top-right-radius: 0.36603221083455345vw;
 }
+
 .number-1 {
   background-color: #ff8080;
   border-radius: 50%;
@@ -319,22 +311,7 @@ hr {
   margin: auto;
   margin-top: 20px;
 }
-.asset-mng-pc {
-  display: block;
-}
-.asset-mng-sp {
-  display: none;
-}
-@media(max-width: 953px){
-  .asset-mng-sp {
-    display: block;
-    width: 100%;
-  }
-  .asset-mng-pc {
-    display: none;
-  }
 
-}
 .toggle {
   right: 24px;
   position: absolute;
@@ -469,6 +446,7 @@ h2 {
     width: 90%;
   }
 }
+
 @media (max-width: 750px) {
   .mv-img-pc {
     display: none;
@@ -489,8 +467,6 @@ h2 {
 
   .table_sp {
     display: block;
-    max-width: 1000px;
-    width: 100%;
   }
 
   .table_pc {
@@ -506,7 +482,6 @@ h2 {
     display: none;
   }
 }
-
 
 @media (max-width: 750px) {
   .mv-img__card {
@@ -549,13 +524,9 @@ h2 {
   .asset-mng__content .row {
     display: block;
   }
-  .sp-screen {
-    display: block;
-  }
 }
 
 @media (max-width: 750px) {
-
   .footer-pc {
     display: none;
   }
