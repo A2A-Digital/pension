@@ -1,6 +1,34 @@
 @font-face {
-  font-family: DIN;
-  src: url(../font/DIN\ Bold.otf);
+  font-family: "Arial";
+  src: url("../font/Arial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN Bold";
+  src: url("../font/DIN Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NotoSansCJKjp-Bold";
+  src: url("../font/NotoSansCJKjp-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "NotoSansCJKjp-Medium";
+  src: url("../font/NotoSansCJKjp-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "NotoSansCJKjp-Regular";
+  src: url("../font/NotoSansCJKjp-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "RyoGothicPlusN-Bold";
+  src: url("../font/RyoGothicPlusN-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "RyoGothicPlusN-Medium";
+  src: url("../font/NotoSansCJKjp-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "RyoGothicPlusN-Reegular";
+  src: url("../font/NotoSansCJKjp-Regular.otf") format("opentype");
 }
 
 body {
