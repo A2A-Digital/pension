@@ -1240,3 +1240,98 @@ h2 {
     font-weight: bold;
     color: #ffffff;
 }
+
+/* Asset Management Table */
+table, th, td {
+    border: 1px solid #7FC2E4;
+    border-collapse: collapse;
+}
+#arrow-3 {
+    display: none;
+}
+.table-pc{
+    display: none;!important;
+}
+.table-sp {
+    display: table;
+    padding: 51px 45px 11px;
+    padding: 6.8vw 6vw 1.466666667vw;
+}
+.table-sp th {
+    background-color: #C6E4F3;
+}
+.table-sp td:nth-child(1){
+    background-color: #E4F2F9;
+    text-align: center;
+    width: 30%;
+    vertical-align: middle;
+}
+.table-sp-header {
+    position: relative;
+    height: 70px;
+    height: 9.333333333vw;
+    font-size: 26px;
+    font-size: 3.466666667vw;
+
+}
+.table-sp-header__txt {
+    font-weight: normal;
+    transform: translateY(17px);
+    transform: translateY(2.266666667vw);
+    font-size: 26px;
+    font-size: 3.466666667vw;
+}
+.td-txt {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 19px;
+    font-size: 24px;
+    font-size: 3.2vw;
+    padding-right:19px;
+    padding-right:2.533333333vw;
+}
+.table-sp-content {
+    font-weight: normal;
+    padding-top: 15.6px;
+    padding-top: 2.08vw;
+    height: 102px;
+    height: 13.6vw;
+    margin-bottom: 32.4px;
+    margin-bottom: 4.32vw;
+    padding-bottom: 19px;
+    padding-bottom: 2.533333333vw;
+    font-size: 20px;
+    font-size: 2.666666667vw;
+}
+.table-sp-toggle__img {
+    width: 40px;
+    width: 5.333333333vw;
+    height: 40px;
+    height: 5.333333333vw;
+}
+.table-sp-toggle {
+    position: absolute;
+    right: 10px;
+    top: 16px;
+}
+.table-sp-toggle__img {
+    cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+    .table-sp-content {
+        display: none;!important;
+    }
+    .table-sp {
+        display: none;!important;
+    }
+    .table-pc {
+        display: block;!important;
+        width: 100%;
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+    .table-img {
+        padding-top: 55px;
+
+    }
+}
