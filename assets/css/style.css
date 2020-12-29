@@ -379,54 +379,54 @@ hr {
 }
 
 /* Asset mng */
-.asset-mng {
-    background-color: #e4eeff;
-    padding-bottom: 80px;
-    padding-top: 0px;
-}
+/*.asset-mng {*/
+/*    background-color: #e4eeff;*/
+/*    padding-bottom: 80px;*/
+/*    padding-top: 0px;*/
+/*}*/
 
-.asset-mng__header {
-    background-color: #27487d;
-    color: #fff;
-    text-align: center;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    margin-top: 3.6603221083455346vw;
-    position: relative;
-    border-top-left-radius: 0.36603221083455345vw;
-    border-top-right-radius: 0.36603221083455345vw;
-}
+/*.asset-mng__header {*/
+/*    background-color: #27487d;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*    padding-top: 5vh;*/
+/*    padding-bottom: 5vh;*/
+/*    margin-top: 3.6603221083455346vw;*/
+/*    position: relative;*/
+/*    border-top-left-radius: 0.36603221083455345vw;*/
+/*    border-top-right-radius: 0.36603221083455345vw;*/
+/*}*/
 
-.number-1 {
-    background-color: #ff8080;
-    border-radius: 50%;
-    width: 115px;
-    height: 115px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -2vw;
-    left: 20px;
-    font-size: 42px;
-    font-weight: bold;
-    border: solid 2px white;
-}
+/*.number-1 {*/
+/*    background-color: #ff8080;*/
+/*    border-radius: 50%;*/
+/*    width: 115px;*/
+/*    height: 115px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    position: absolute;*/
+/*    top: -2vw;*/
+/*    left: 20px;*/
+/*    font-size: 42px;*/
+/*    font-weight: bold;*/
+/*    border: solid 2px white;*/
+/*}*/
 
-.content-header {
-    background-color: white !important;
-    border-bottom: 2px dashed lightgrey !important;
-}
+/*.content-header {*/
+/*    background-color: white !important;*/
+/*    border-bottom: 2px dashed lightgrey !important;*/
+/*}*/
 
-.asset-mng__content .content-header {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 3.1961932650073206vw;
-    background-color: #f2f2f2;
-    position: relative;
-    cursor: pointer;
-}
+/*.asset-mng__content .content-header {*/
+/*    text-align: center;*/
+/*    padding-top: 20px;*/
+/*    padding-bottom: 20px;*/
+/*    margin-top: 3.1961932650073206vw;*/
+/*    background-color: #f2f2f2;*/
+/*    position: relative;*/
+/*    cursor: pointer;*/
+/*}*/
 
 .asset-mng__content .img-card-pc {
     width: 100%;
@@ -984,7 +984,11 @@ h2 {
     font-family: 'RyoGothicPlusN-Medium';
     margin-top: 100px;
     margin-top: 13.334vw;
-    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .insurance__img__sp {
@@ -1004,9 +1008,11 @@ h2 {
 
 .insurance__text {
     color: #008767;
-    font-size: 14px;
-    font-size: 1.867vw;
-    text-align: center;
+    font-size: 24px;
+    font-size: 3.2vw;
+    line-height: 36px;
+    line-height: 4.8vw;
+    text-align: left;
 }
 
 .insurance__text::before {
@@ -1034,13 +1040,15 @@ h2 {
     padding: 5vw;
     border-radius: 10px;
     border-radius: 1.333333333vw;
+    margin-bottom: 48px;
+    margin-bottom: 6.4vw;
 }
 
 .old-planning > .title {
     font-family: 'RyoGothicPlusN-Bold';
     font-weight: bold;
     font-size: 42px;
-    font-size: 5.6vw;
+    font-size: 5.4vw;
     line-height: 8vw;
     color: #008767;
     margin-bottom: 45px;
@@ -1084,7 +1092,7 @@ h2 {
     font-size: 3.2vw;
     text-align: left;
     line-height: 42px;
-    line-height: 5.6vw;
+    line-height: 5.4vw;
 }
 
 .old-planning__card {
@@ -1158,6 +1166,7 @@ h2 {
         text-align: center;
         padding: 50px;
         border-radius: 10px;
+        margin-bottom: 48px;
     }
 
     .old-planning > .title {
@@ -1221,6 +1230,7 @@ h2 {
 
 /*Retire fund reason*/
 .retire-fund-reason {
+    background-color: #008767;
     background-image: url("../img/bg_sec_ttl_pc.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1238,5 +1248,77 @@ h2 {
 .retire-fund-reason > .title {
     font-family: 'RyoGothicPlusN-Bold';
     font-weight: bold;
+    font-size: 42px;
+    font-size: 5.4vw;
+    line-height: 62px;
+    line-height: 8.266666667vw;
+    text-align: center;
     color: #ffffff;
+}
+
+/*Point 1 Section*/
+.asset-mng {
+    background-color: #e4eeff;
+    margin-top: 90px;
+    margin-top: 12vw;
+    border-radius: 10px;
+    position: relative;
+}
+
+.asset-mng__header {
+    background-color: #2B4A7E;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    text-align: center;
+    padding-top: 36px;
+    padding-top: 4.8vw;
+    padding-bottom: 36px;
+    padding-bottom: 4.8vw;
+    position: relative;
+}
+
+.asset-mng__header > .number {
+    font-family: 'DIN Bold';
+    font-weight: bold;
+    background-color: #ff8080;
+    border-radius: 50%;
+    width: 115px;
+    width: 15.33333333vw;
+    height: 115px;
+    height: 15.33333333vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translateY(-80%);
+    left: 20px;
+    left: 2.666666667vw;
+    font-size: 42px;
+    font-size: 5.6vw;
+    border: solid 3px #ffffff;
+    border: solid 0.4vw #ffffff;
+}
+
+.asset-mng__header > .title {
+    font-family: 'Yu Gothic Medium';
+    font-size: 34px;
+    font-size: 4.533333333vw;
+    line-height: 48px;
+    line-height: 6.4vw;
+}
+
+.asset-mng__content .content-header {
+    text-align: center;
+    padding: 50px;
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+    margin-top: 3.1961932650073206vw;
+    background-color: #f2f2f2;
+    position: relative;
+    cursor: pointer;
+}
+
+.content-header {
+    background-color: #ffffff !important;
+    border-bottom: 2px dashed lightgrey !important;
 }
