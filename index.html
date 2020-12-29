@@ -122,71 +122,43 @@
             </div>
             <div class="asset-mng__content">
                 <div class="content-header">
-                    <h2 style="font-weight: normal; font-size: 30px;">仕組み図</h2>
-                    <div class="toggle" id="toggle-1"><img id="arrow-1" src="./assets/img/img_circle_arrow_up.png">
+                    <h2 class="title">仕組み図</h2>
+                    <div class="toggle" id="toggle-1">
+                        <img id="arrow-1" src="./assets/img/img_circle_arrow_up.png">
                     </div>
                 </div>
                 <div class="asset-mng__content" id="content-1">
-                    <img
-                            class="img-card-pc"
-                            src="./assets/img/img_point1_diagram_pc.png"
-                            style="padding-top: 20px;padding-bottom: 20px; background-color: white;">
-                    <img class="img-card-sp" src="./assets/img/img_point1_diagram_sp.png"
-                         style="padding-top: 20px;padding-bottom: 20px; background-color: white;">
+                    <img class="pc-item content-img"
+                         src="./assets/img/img_point1_diagram_pc.png"/>
+                    <img class="sp-item content-img" src="./assets/img/img_point1_diagram_sp.png"/>
                 </div>
             </div>
             <div class="asset-mng__content">
                 <div class="content-header">
-                    <h2 style="font-weight: normal; font-size: 30px;">ご契約例</h2>
+                    <h2 class="title">ご契約例</h2>
                     <div class="toggle" id="toggle-2"><img id="arrow-2" src="./assets/img/img_circle_arrow_up.png">
                     </div>
                 </div>
 
                 <div class="asset-mng__content " id="content-2">
-                    <div style="background-color: white;">
+                    <div class="content">
                         <div class="row contract_example">
-                            <div class="col-2">
-                                <div style=" height: 60px; background-color: #808080; ">
-                                    <p style="
-                                    transform: translateY( 1.0248901903367496vw);
-                                    text-align: center;
-                                    color: white;
-                                    font-weight: normal;
-                                    font-size:30px;"
-                                    >
-                                        ご契約例（月払の場合
-                                    </p>
-                                </div>
+                            <div class="contract_example-box">
+                                <p>ご契約例（月払の場合</p>
                             </div>
                             <div class="col-10">
-                                <p style="
-                                text-align: start;
-                                font-weight: normal;
-                                font-size: 21px;">
-                                    ●被保険者：35歳　
-                                    ●基本年金額：100万円　
-                                    ●年金種類：確定年金　
-                                    ●年金支払期間：10年　
-                                    ●年金支払開始年齢：60歳　
-                                    ●保険料払込期間：60歳まで　
-                                    ●個別扱月払保険料　男性：20,550円　女性：20,490円
-                                </p>
+                                <p class="listing-text">●被保険者：35歳 ●基本年金額：100万円 ●年金種類：確定年金 ●年金支払期間：10年 ●年金支払開始年齢：60歳
+                                    ●保険料払込期間：60歳まで ●個別扱月払保険料　男性：20,550円　女性：<br class="sp-item"/> 20,490円</p>
                             </div>
                         </div>
-                        <h2 style="text-align: center; font-weight: normal; font-size: 30px; margin-top: 40px;">
+                        <h2 class="title">
                             特別勘定の資産の<br>運用実績例表（ご契約の場合）
                         </h2>
-                        <img
-                                class="padding-container table_pc"
-                                src="./assets/img/img_point2.png"
-                                style="padding-top: 20px;padding-bottom: 20px; background-color: white; margin-bottom: 20px;"
-                                width="88.5%"
-                        >
+                        <img class="table_pc"
+                             src="./assets/img/img_point1_table_pc.png">
 
-                        <img class="padding-container table_sp"
-                             src="./assets/img/img_point2_item1_sp.png"
-                             style="padding-top: 20px;padding-bottom: 100px; background-color: white; margin-bottom: 20px;"
-                             width="88.5%">
+                        <img class="table_sp"
+                             src="./assets/img/img_point1_table_sp.png">
                     </div>
 
                 </div>
@@ -203,12 +175,21 @@
             </div>
             <div class="asset-mng__content">
                 <h3 class="asset-mng__content__txt">
+                    特別勘定とは、変額保険と変額個人年金保険に<br />
+                    かかる資産を他の保険種類の資産と区分し、<br />
+                    独立して管理・運用を行う勘定のことです。<br />
+                    <br />
+                    ソニー生命では運用方針の異なる8つの特別勘定の<br />
+                    中から運用対象として１つないし<br />
+                    複数の特別勘定をお選びいただけます。
+                </h3>
+                <h3 class="asset-mng__content__txt pc-item">
                     特別勘定とは、変額保険と変額個人年金保険にかかる資産を<br>
                     他の保険種類の資産と区分し、独立して管理・運用を行う勘定のことです。<br><br>
                     ソニー生命では運用方針の異なる8つの特別勘定の中から運用対象として１つないし<br>
                     複数の特別勘定をお選びいただけます。</h3>
-                <div class="content-header">
-                    <h3 style="font-size:30px; font-weight: normal;">運用方針が異なる8つの特別勘定</h3>
+                <div class="content-header" style="margin: 0;">
+                    <h3 class="title">運用方針が異なる8つの特別勘定</h3>
                     <div class="toggle" id="toggle-3"><img id="arrow-3" src="./assets/img/img_circle_arrow_up.png">
                     </div>
                 </div>
@@ -462,7 +443,10 @@
             </div>
         </section>
     </div>
-    <img src="./assets/img/img_benefit3_pc.png" style="margin-top: 30px;" width="100%">
+    <div class="container benefit3_top">
+        <img class="pc-item" src="./assets/img/img_benefit3_top_pc.png">
+        <img class="sp-item" src="./assets/img/img_benefit3_top_sp.png">
+    </div>
     <div class="container">
         <section class="asset-mng">
             <div class="asset-mng__header">
@@ -616,7 +600,7 @@
                 >
 
                 <img
-                        class="padding-container asset-mng-pc"
+                        class="asset-mng-pc"
                         src="./assets/img/img_flow_step1_pc.png"
                         style="width: 88%; margin: 20px 0"
                 >
@@ -631,7 +615,7 @@
                                 margin-right: auto;"
                 >
                 <img
-                        class="padding-container asset-mng-pc"
+                        class="asset-mng-pc"
                         src="./assets/img/img_flow_step2_pc.png"
                         style="width: 88%; margin: 20px 0"
                 >
@@ -644,7 +628,7 @@
                                 margin-right: auto;"
                 >
                 <img
-                        class="padding-container asset-mng-pc"
+                        class="asset-mng-pc"
                         src="./assets/img/img_flow_step3_pc.png"
                         style="width: 88%; margin: 20px 0"
                 >
@@ -658,7 +642,7 @@
                                 margin-right: auto;"
                 >
                 <img
-                        class="padding-container asset-mng-pc"
+                        class="asset-mng-pc"
                         src="./assets/img/img_flow_step4_pc.png"
                         style="width: 88%; margin: 20px 0"
                 >
