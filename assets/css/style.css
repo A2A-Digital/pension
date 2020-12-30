@@ -1322,7 +1322,47 @@ h2 {
     background-color: #ffffff !important;
     border-bottom: 2px dashed lightgrey !important;
 }
+/*Point 2 Section*/
+.content-header > .content-header__txt {
+    font-size: 30px;
+    font-size: 4vw;
+    padding: 0 81px;
+}
+.asset-mg > .content-header {
+    margin-bottom: 29px;
+    margin-bottom: 3.866666667vw;
+}
+.asset-mng > .detail-sp {
+    text-align: center;
+    font-size: 24px;
+    font-size: 2.9vw;
+    line-height: 42px;
+    line-height: 5.6vw;
+    padding-right:91.9px;
+    padding-right:12.25333333vw;
+    padding-left: 94.1px;
+    padding-left: 12.54666667vw;
+    padding-top: 44px;
+    padding-top: 5.866666667vw;
+}
+.asset-mng > .detail-pc {
+    display: none;!important;
+}
 
+@media screen and (min-width: 768px) {
+    .asset-mng > .detail-sp {
+        display: none;!important;
+    }
+    .asset-mng > . detail-pc {
+        display: block;
+        font-size: 24px;!important;
+        line-height: 42px;!important;
+        text-align: center;
+        padding-top:42px;
+        padding-left: 103px;
+        padding-right: 105px;
+    }
+}
 /* Asset Management Table */
 table, th, td {
     border: 1px solid #7FC2E4;
@@ -1338,6 +1378,8 @@ table, th, td {
     display: table;
     padding: 51px 45px 11px;
     padding: 6.8vw 6vw 1.466666667vw;
+    margin-top: 51px;
+    margin-top: 6.8vw;
 }
 .table-sp th {
     background-color: #C6E4F3;
@@ -1345,7 +1387,7 @@ table, th, td {
 .table-sp td:nth-child(1){
     background-color: #E4F2F9;
     text-align: center;
-    width: 30%;
+    width: 40%;
     vertical-align: middle;
 }
 .table-sp-header {
@@ -1367,10 +1409,15 @@ table, th, td {
     padding-top: 19px;
     padding-bottom: 19px;
     padding-left: 19px;
+    padding-left: 2.533333333vw;
     font-size: 24px;
     font-size: 3.2vw;
     padding-right:19px;
     padding-right:2.533333333vw;
+}
+.td-title {
+    font-size: 22px;
+    font-size: 2.933333333vw;
 }
 .table-sp-content {
     font-weight: normal;
@@ -1378,12 +1425,13 @@ table, th, td {
     padding-top: 2.08vw;
     height: 102px;
     height: 13.6vw;
-    margin-bottom: 32.4px;
-    margin-bottom: 4.32vw;
-    padding-bottom: 19px;
-    padding-bottom: 2.533333333vw;
+    margin-bottom: 0px;
+    margin-bottom: 0vw;
+    padding-bottom: 0px;
+    padding-bottom: 0vw;
     font-size: 20px;
-    font-size: 2.666666667vw;
+    font-size: 2.5vw;
+    line-height: 3.6vw;
 }
 .table-sp-toggle__img {
     width: 40px;
