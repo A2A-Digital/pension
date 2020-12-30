@@ -1726,10 +1726,14 @@ table, th, td {
     font-size: 3.2vw;
     padding-right:19px;
     padding-right:2.533333333vw;
+    line-height: 24px;
+    line-height: 3.2vw;
+    font-family: 'Yu Gothic Medium';
 }
 .td-title {
     font-size: 22px;
     font-size: 2.933333333vw;
+    font-family: 'Yu Gothic Medium';
 }
 .table-sp-content {
     font-weight: normal;
@@ -1776,5 +1780,89 @@ table, th, td {
     }
     .table-img {
         padding: 55px 0;
+    }
+}
+/* Point 3*/
+.sec-3-content {
+    padding-top:36px;
+    padding-top:4.8vw;
+}
+.sec-3-content__txt {
+    font-size: 28px;
+    font-size: 3.733333333vw;
+    line-height: 41px;
+    line-height: 5.4vw;
+    text-align: center;
+
+}
+.sec-3-content__num {
+    font-size: 44px;
+    font-size: 5.866666667vw;
+    line-height: 77px;
+    line-height: 10vw;
+    text-align: center;
+    color: red;
+}
+.sec-3__detail-1 {
+    font-size: 18px;
+    font-size: 2vw;
+    line-height: 38px;
+    line-height: 5vw;
+    padding: 15px 15px 0 15px;
+    background-color: #EAEAEA;
+    text-align: left;
+    margin-top: 26px;
+    margin-top: 3.4vw;
+}
+.sec-3__detail-1 > .big-txt {
+    font-size: 16px;
+    font-size: 2.5vw;
+}
+.sec-3__detail-2 {
+    color: #666666;
+    text-align: left;
+    font-size: 18px;
+    font-size: 2.3vw;
+    margin-top: 25px;
+    margin-top: 3.3vw;
+    line-height: 31px;
+    line-height: 4vw;
+    padding-bottom: 22px;
+    padding-bottom: 3vw;
+}
+@media screen and (min-width:768px){
+    .sec-3-col__wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .sec-3-col-1 {
+        width: 50%;
+    }
+    .sec-3-col-2 {
+        width: 50%;
+    }
+    .sec-3-content__txt {
+        font-size: 24px;
+        line-height: 42px;
+    }
+    .sec-3-content__num {
+        font-size: 44px;
+        line-height: 77px;
+    }
+    .sec-3__detail-1 {
+        font-size: 14px;
+        line-height: 28px;
+        margin-top: 0;
+        padding:27px 26px 10px 30px;
+    }
+    .sec-3__detail-1 > .big-txt {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .sec-3__detail-2 {
+        font-size: 14px;
+        line-height: 24px;
+        font-family: 'Yu Gothic Medium';
     }
 }
