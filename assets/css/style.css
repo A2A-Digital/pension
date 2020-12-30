@@ -1790,6 +1790,232 @@ table, th, td {
     }
 }
 
+/*Life at Sony Section*/
+.life-at-sony__content {
+    margin-bottom: 50px;
+    margin-bottom: 6.666666667vw;
+}
+
+.life-at-sony__content .description {
+    font-family: 'Yu Gothic Medium';
+    font-size: 30px;
+    font-size: 4vw;
+    line-height: 52.5px;
+    line-height: 7vw;
+    margin: 45px 0;
+    margin: 6vw 0;
+}
+
+.life-at-sony__content .listing {
+    font-family: 'Yu Gothic Medium';
+    font-size: 30px;
+    font-size: 4vw;
+    line-height: 44px;
+    line-height: 5.866666667vw;
+    color: #2B4A7E;
+    list-style-type: disc;
+    padding-left: 25px;
+    padding-left: 3.333333333vw;
+}
+
+.life-at-sony__content hr {
+    border-top: 1px dashed #8799B6;
+    height: 0.5px;
+}
+
+@media screen and (min-width: 768px) {
+    .life-at-sony__content {
+        margin-bottom: 80px;
+    }
+
+    .life-at-sony__content .description {
+        font-family: 'Yu Gothic Medium';
+        font-size: 16px;
+        line-height: 26px;
+        margin: 40px 0;
+    }
+
+    .life-at-sony__content .listing {
+        font-family: 'Yu Gothic Medium';
+        font-size: 16px;
+        line-height: 24px;
+        color: #2B4A7E;
+        list-style-type: disc;
+        padding-left: 15px;
+    }
+
+    .life-at-sony__content hr {
+        border-top: 1px dashed #8799B6;
+        height: 0.5px;
+    }
+}
+
+/*Choices Section*/
+.choices {}
+.choice-content {}
+.choice-content .title {
+    font-family: 'Yu Gothic Medium';
+    font-size: 22.5px;
+    font-size: 3vw;
+    line-height: 25px;
+    line-height: 3.333333333vw;
+    text-align: center;
+    font-weight: normal;
+    color: #FF900D;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-bottom: 1.6vw;
+}
+.choice-content .title:after {
+    content: '※1';
+    font-size: 13px;
+    font-size: 1.733333333vw;
+    position: absolute;
+    transform: translateY(-22%);
+}
+.choice-content .description {
+    font-family: 'Noto Serif';
+    text-align: center;
+    font-size: 12px;
+    font-size: 1.6vw;
+    line-height: 26px;
+    line-height: 3.466666667vw;
+}
+.insurance-choice-sp {
+    margin: 48px 0 28px 0;
+    margin: 6vw 0 3.733333333vw 0;
+}
+.insurance-choice-pc, .insurance-choice-sp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.insurance-choice__card-sp {
+    position: relative;
+    width: 50%;
+}
+.insurance-choice__card-sp:first-child {
+    padding-right: 8px;
+    padding-right: 1.066666667vw;
+}
+.insurance-choice__card-sp:last-child {
+    padding-left: 8px;
+    padding-left: 1.066666667vw;
+}
+.insurance-choice__img-sp {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border-radius: 1.333333333vw;
+    object-fit: cover;
+    object-position: center;
+}
+.insurance-choice__txt-block-sp {
+    position: absolute;
+    bottom: 10px;
+    bottom: 1.333333333vw;
+    left: 50%;
+    text-decoration: none;
+    transform: translateX(-50%);
+}
+.insurance-choice__txt-sp {
+    font-family: 'RyoGothicPlusN-Bold';
+    position: relative;
+    font-size: 27px;
+    font-size: 3.6vw;
+    line-height: 55px;
+    line-height: 7.333333333vw;
+    white-space: nowrap;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.insurance-choice__txt-sp:after {
+    background-color: rgba(0, 135, 103, 0.9);
+    content: '';
+    height: 100%;
+    position: absolute;
+    left: 0;
+    margin-left: -16px;
+    margin-left: -2.133333333vw;
+    top: 0;
+    width: calc(100% + 32px);
+    width: calc(100% + 4.266666667vw);
+    z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+    .choice-content .title {
+        font-family: 'Yu Gothic Medium';
+        font-size: 23px;
+        line-height: 25px;
+        text-align: center;
+        font-weight: normal;
+        color: #FF900D;
+        margin-bottom: 12px;
+    }
+    .choice-content .title:after {
+        content: '※1';
+        font-size: 12px;
+        position: absolute;
+        transform: translateY(-22%);
+    }
+    .choice-content .description {
+        font-family: 'Noto Serif';
+        text-align: center;
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .insurance-choice-pc {
+        margin: 30px 0 15px 0;
+    }
+    .insurance-choice__card-pc {
+        width: 50%;
+        text-decoration: none;
+    }
+
+    .insurance-choice__card-pc:first-child {
+        padding-right: 10px;
+    }
+    .insurance-choice__card-pc:last-child {
+        padding-left: 10px;
+    }
+
+    .insurance-choice__card-block-pc {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 5px;
+        background-color: #F1F1F1;
+        border-radius: 8px;
+    }
+
+    .insurance-choice__img-pc {
+        min-width: 200px;
+        height: 108px;
+        border-radius: 3px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .insurance-choice__txt-block-pc {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .insurance-choice__txt-pc {
+        display: inline;
+        font-size: 21px;
+        line-height: 25px;
+        color: #008767;
+    }
+}
+
 /* Point 3*/
 .sec-3-content {
     padding-top: 36px;
