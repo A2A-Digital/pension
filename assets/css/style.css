@@ -514,7 +514,6 @@ h2 {
 
 .img-width {
     width: 100%;
-    padding: 1.8301610541727673vw;
 }
 
 /* cover section */
@@ -1641,7 +1640,7 @@ h2 {
     font-size: 4vw;
     padding: 0 81px;
 }
-.asset-mg > .content-header {
+.asset-mng > .content-header {
     margin-bottom: 29px;
     margin-bottom: 3.866666667vw;
 }
@@ -1830,6 +1829,9 @@ table, th, td {
     line-height: 4vw;
     padding-bottom: 22px;
     padding-bottom: 3vw;
+    padding-top: 25px;
+    padding-top: 3vw;
+    display: inline-block;
 }
 @media screen and (min-width:768px){
     .sec-3-content {
@@ -1868,5 +1870,250 @@ table, th, td {
         font-size: 14px;
         line-height: 24px;
         font-family: 'Yu Gothic Medium';
+        padding-top: 0;
+    }
+}
+
+
+/* Consultation Flow Section */
+
+.consult-flow {
+    background-color: #F0EFEC;
+    margin-top: 45px;
+    margin-top: 6vw;
+    border-radius: 10px;
+    border-radius: 1.3vw;
+    position: relative;
+    /*padding-bottom: 40px;*/
+    /*padding-bottom: 5.3vw;*/
+    margin-bottom: 40px;
+    margin-bottom: 5.3vw
+}
+.consult-flow__header{
+    position: relative;
+    background-color: #26997E;
+    border-radius: 10px 10px 0 0;
+    border-radius: 1.3vw 1.3vw 0 0;
+    color: #fff;
+    text-align: center;
+    padding-top: 36px;
+    padding-top: 4.8vw;
+    padding-bottom: 36px;
+    padding-bottom: 4.8vw;
+    position: relative;
+    font-size: 34px;
+    font-size: 4.5vw;
+    font-family: "RyoGothicPlusN-Medium";
+    line-height: 40px;
+    line-height: 5vw;
+}
+.consult-flow__header:after {
+    content: " ";
+    position: absolute;
+    bottom: -15px;
+    bottom: -2vw;
+    border-top: 15px solid #26997E;
+    border-top: 2vw solid #26997E;
+    border-right: 15px solid transparent;
+    border-right: 2vw solid transparent;
+    border-left: 15px solid transparent;
+    border-left: 2vw solid transparent;
+    border-bottom: none;
+}
+.consult-flow__header > .txt-big {
+    font-size: 44px;
+    font-size: 5.8vw;
+    line-height: 61px;
+    line-height: 8vw;
+}
+
+.consult-flow__header > .header-img {
+    position: absolute;
+    top: 59px;
+    top: 13.8vw;
+    right: 17px;
+    right: 6.2vw;
+    width: 20px;
+    width: 3.6vw;
+    height: 21px;
+    height: 3.8vw;
+    cursor: pointer;
+}
+
+.consult-flow__content {
+    width: 86.57%;
+    margin: 45px auto;
+    margin: 6vw auto;
+    margin-bottom: 40px;
+    margin-bottom: 5vw;
+
+
+}
+.arrow-down-img > .arrow-down {
+    width: 44.5px;
+    width: 6vw;
+    height: 44.5px;
+    height: 6vw;
+}
+.arrow-down-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+    margin-top: 3.4vw;
+    margin-bottom: 3.3vw;
+}
+.consult-flow__bot {
+    font-size: 22px;
+    font-size: 2.9vw;
+    margin-top:37px;
+    margin-top:4.9vw;
+    line-height: 34px;
+    line-height: 4.5vw;
+}
+.consult-flow__bot > .list-header {
+    font-size: 22px;
+    font-size: 2.9vw;
+    line-height: 34px;
+    line-height: 4.5vw;
+
+}
+.consult-flow__bot ol,ul {
+    list-style: decimal;
+    padding-left: 20px;
+    padding-left: 2.6vw;
+}
+.consult-flow__footer {
+    background-color: #26997E;
+    height: 130px;
+    height: 17.3vw;
+    position: relative;
+}
+.consult-flow__footer > .footer-text {
+    position: absolute;
+    color: #26997E;
+    background-color: white;
+    border-radius: 50px;
+    border-radius: 6.6vw;
+    top: 31px;
+    top: 4vw;
+    right: 236px;
+    right: 31vw;
+    height: 84px;
+    height: 11vw;
+    height: 4.2vw;
+    width: 200px;
+    width: 26.6vw;
+    padding: 19px 0px 23px 0px;
+    padding: 2.5vw 0 3vw 0;
+    font-size: 32px;
+    font-size: 4.2vw;
+    text-align: center;
+    cursor: pointer;
+    font-size: 32px;
+    font-size: 4.2vw;
+}
+
+.consult-flow__footer > .footer-img {
+    height: 37px;
+    width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .consult-flow {
+        background-color: #F0EFEC;
+        margin-top: 45px;
+        border-radius: 10px;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    .consult-flow__header {
+        position: relative;
+        background-color: #26997E;
+        border-radius: 10px 10px 0 0;
+        color: #fff;
+        text-align: center;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        position: relative;
+        font-size: 34px;
+        font-family: "RyoGothicPlusN-Medium";
+        line-height: 40px;
+    }
+    .consult-flow__header:after {
+        content: " ";
+        position: absolute;
+        bottom: -15px;
+        border-top: 15px solid #26997E;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-bottom: none;
+    }
+    .consult-flow__header > .txt-big {
+        font-size: 44px;
+        line-height: 61px;
+    }
+
+    .consult-flow__header > .header-img {
+        position: absolute;
+        top: 96px;
+        right: 22px;
+        width: 44px;
+        height: 44px;
+        cursor: pointer;
+    }
+
+    .consult-flow__content {
+        width: 86.57%;
+        margin: 45px auto 40px;
+
+    }
+    .arrow-down-img > .arrow-down {
+        width: 44.5px;
+        height: 44.5px;
+    }
+    .arrow-down-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 26px;
+        margin-bottom: 3.3vw;
+    }
+    .consult-flow__bot {
+        font-size: 22px;
+        margin-top:37px;
+        line-height: 34px;
+    }
+    .consult-flow__bot > .list-header {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .consult-flow__bot ol,ul {
+        list-style: decimal;
+        padding-left: 20px;
+    }
+    .consult-flow__footer {
+        background-color: #26997E;
+        height: 130px;
+        position: relative;
+    }
+    .consult-flow__footer > .footer-text {
+        position: absolute;
+        color: #26997E;
+        background-color: white;
+        border-radius: 50px;
+        top: 31px;
+        right: 236px;
+        height: 84px;
+        width: 200px;
+        padding: 19px 0px 23px 0px;
+        font-size: 32px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 32px;
+    }
+    .consult-flow__footer > .footer-img {
+        height: 37px;
+        width: 20px;
     }
 }
