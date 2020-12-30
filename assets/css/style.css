@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: "RyoGothicPlusN-Medium";
-    src: url("../font/NotoSansCJKjp-Medium.otf") format("opentype");
+    src: url("../font/RyoGothicPlusN-Medium.otf") format("opentype");
 }
 
 @font-face {
     font-family: "RyoGothicPlusN-Reegular";
-    src: url("../font/NotoSansCJKjp-Regular.otf") format("opentype");
+    src: url("../font/RyoGothicPlusN-Regular.otf") format("opentype");
 }
 @font-face {
     font-family: 'Yu Gothic Medium';
