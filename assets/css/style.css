@@ -17,6 +17,7 @@
     font-family: "RyoGothicPlusN-Reegular";
     src: url("../font/RyoGothicPlusN-Regular.otf") format("opentype");
 }
+
 @font-face {
     font-family: 'Yu Gothic Medium';
     src: url('../font/Yu Gothic Medium.otf') format('opentype');
@@ -1643,13 +1644,16 @@ h2 {
 
 @media screen and (min-width: 768px) {
     .asset-mng > .detail-sp {
-        display: none;!important;
+        display: none;
+    !important;
     }
 
     .asset-mng > . detail-pc {
         display: block;
-        font-size: 24px;!important;
-        line-height: 42px;!important;
+        font-size: 24px;
+    !important;
+        line-height: 42px;
+    !important;
         text-align: center;
         padding-top: 42px;
         padding-left: 103px;
@@ -1666,8 +1670,10 @@ table, th, td {
 #arrow-3 {
     display: none;
 }
-.table-pc{
-    display: none;!important;
+
+.table-pc {
+    display: none;
+!important;
 }
 
 .table-sp {
@@ -1762,15 +1768,18 @@ table, th, td {
 
 @media screen and (min-width: 768px) {
     .table-sp-content {
-        display: none;!important;
+        display: none;
+    !important;
     }
 
     .table-sp {
-        display: none;!important;
+        display: none;
+    !important;
     }
 
     .table-pc {
-        display: block;!important;
+        display: block;
+    !important;
         width: 100%;
         padding-bottom: 40px;
         padding-top: 50px;
@@ -1838,10 +1847,11 @@ table, th, td {
     display: inline-block;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
     .sec-3-content {
-        padding-top:36px;
+        padding-top: 36px;
     }
+
     .sec-3-col__wrapper {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1901,7 +1911,8 @@ table, th, td {
     margin-bottom: 40px;
     margin-bottom: 5.3vw
 }
-.consult-flow__header{
+
+.consult-flow__header {
     position: relative;
     background-color: #26997E;
     border-radius: 10px 10px 0 0;
@@ -1919,6 +1930,7 @@ table, th, td {
     line-height: 40px;
     line-height: 5vw;
 }
+
 .consult-flow__header:after {
     content: " ";
     position: absolute;
@@ -1932,6 +1944,7 @@ table, th, td {
     border-left: 2vw solid transparent;
     border-bottom: none;
 }
+
 .consult-flow__header > .txt-big {
     font-size: 44px;
     font-size: 5.8vw;
@@ -1961,12 +1974,14 @@ table, th, td {
 
 
 }
+
 .arrow-down-img > .arrow-down {
     width: 44.5px;
     width: 6vw;
     height: 44.5px;
     height: 6vw;
 }
+
 .arrow-down-img {
     display: flex;
     justify-content: center;
@@ -1975,14 +1990,16 @@ table, th, td {
     margin-top: 3.4vw;
     margin-bottom: 3.3vw;
 }
+
 .consult-flow__bot {
     font-size: 22px;
     font-size: 2.9vw;
-    margin-top:37px;
-    margin-top:4.9vw;
+    margin-top: 37px;
+    margin-top: 4.9vw;
     line-height: 34px;
     line-height: 4.5vw;
 }
+
 .consult-flow__bot > .list-header {
     font-size: 22px;
     font-size: 2.9vw;
@@ -1990,17 +2007,20 @@ table, th, td {
     line-height: 4.5vw;
 
 }
-.consult-flow__bot ol,ul {
+
+.consult-flow__bot ol, ul {
     list-style: decimal;
     padding-left: 20px;
     padding-left: 2.6vw;
 }
+
 .consult-flow__footer {
     background-color: #26997E;
     height: 130px;
     height: 17.3vw;
     position: relative;
 }
+
 .consult-flow__footer > .footer-text {
     position: absolute;
     color: #26997E;
@@ -2039,6 +2059,7 @@ table, th, td {
         position: relative;
         margin-bottom: 40px;
     }
+
     .consult-flow__header {
         position: relative;
         background-color: #26997E;
@@ -2052,6 +2073,7 @@ table, th, td {
         font-family: "RyoGothicPlusN-Medium";
         line-height: 40px;
     }
+
     .consult-flow__header:after {
         content: " ";
         position: absolute;
@@ -2061,6 +2083,7 @@ table, th, td {
         border-left: 15px solid transparent;
         border-bottom: none;
     }
+
     .consult-flow__header > .txt-big {
         font-size: 44px;
         line-height: 61px;
@@ -2080,10 +2103,12 @@ table, th, td {
         margin: 45px auto 40px;
 
     }
+
     .arrow-down-img > .arrow-down {
         width: 44.5px;
         height: 44.5px;
     }
+
     .arrow-down-img {
         display: flex;
         justify-content: center;
@@ -2091,24 +2116,29 @@ table, th, td {
         margin-top: 26px;
         margin-bottom: 3.3vw;
     }
+
     .consult-flow__bot {
         font-size: 22px;
-        margin-top:37px;
+        margin-top: 37px;
         line-height: 34px;
     }
+
     .consult-flow__bot > .list-header {
         font-size: 22px;
         line-height: 34px;
     }
-    .consult-flow__bot ol,ul {
+
+    .consult-flow__bot ol, ul {
         list-style: decimal;
         padding-left: 20px;
     }
+
     .consult-flow__footer {
         background-color: #26997E;
         height: 130px;
         position: relative;
     }
+
     .consult-flow__footer > .footer-text {
         position: absolute;
         color: #26997E;
@@ -2124,6 +2154,7 @@ table, th, td {
         cursor: pointer;
         font-size: 32px;
     }
+
     .consult-flow__footer > .footer-img {
         height: 37px;
         width: 20px;
