@@ -1,41 +1,11 @@
 @font-face {
-    font-family: "Arial";
-    src: url("../font/Arial.ttf") format("truetype");
-}
-
-@font-face {
     font-family: "DIN Bold";
     src: url("../font/DIN Bold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "NotoSansCJKjp-Bold";
-    src: url("../font/NotoSansCJKjp-Bold.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "NotoSansCJKjp-Medium";
-    src: url("../font/NotoSansCJKjp-Medium.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "NotoSansCJKjp-Regular";
-    src: url("../font/NotoSansCJKjp-Regular.otf") format("opentype");
-}
-
-@font-face {
     font-family: "RyoGothicPlusN-Bold";
     src: url("../font/RyoGothicPlusN-Bold.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "RyoGothicPlusN-Medium";
-    src: url("../font/NotoSansCJKjp-Medium.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "RyoGothicPlusN-Reegular";
-    src: url("../font/NotoSansCJKjp-Regular.otf") format("opentype");
 }
 
 @font-face {
@@ -46,7 +16,7 @@
 /*Common Styles*/
 body {
     color: #000000;
-    font-family: "りょうゴシック PlusN", "RyoGothicPlusN-Reegular", "Noto Serif", sans-serif;
+    font-family: "りょうゴシック PlusN", "RyoGothicPlusN-Reegular", "Noto Serif", "Arial", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
 }
 
 .sp-item {
@@ -311,28 +281,28 @@ hr {
 /*    display: flex;*/
 /*}*/
 
-.insurance-choice__card {
-    background: #f1f1f1;
-    height: 8.63836017569546vw;
-    width: 35.825036603221086vw;
-    margin: 25px 0;
-}
+/*.insurance-choice__card {*/
+/*    background: #f1f1f1;*/
+/*    height: 8.63836017569546vw;*/
+/*    width: 35.825036603221086vw;*/
+/*    margin: 25px 0;*/
+/*}*/
 
-.insurance-choice__img {
-    height: 7.906295754026354vw;
-    width: 14.595168374816984vw;
-    padding: 0.36603221083455345vw;
-}
+/*.insurance-choice__img {*/
+/*    height: 7.906295754026354vw;*/
+/*    width: 14.595168374816984vw;*/
+/*    padding: 0.36603221083455345vw;*/
+/*}*/
 
-.insurance-choice__txt {
-    margin: auto;
-    text-align: center;
-    font-size: 1.5373352855051245vw;
-    padding: 2vw 0;
-    transform: translateY(1.196193vw);
-    color: #008767;
-    margin: 0 2.1961932650073206vw;
-}
+/*.insurance-choice__txt {*/
+/*    margin: auto;*/
+/*    text-align: center;*/
+/*    font-size: 1.5373352855051245vw;*/
+/*    padding: 2vw 0;*/
+/*    transform: translateY(1.196193vw);*/
+/*    color: #008767;*/
+/*    margin: 0 2.1961932650073206vw;*/
+/*}*/
 
 .precaution-header {
     font-size: 1.3177159590043923vw;
@@ -845,7 +815,7 @@ h2 {
     flex-flow: column;
     max-width: 626px;
     position: relative;
-    background: #FFFFFF80;
+    background: rgba(255, 255, 255, 0.8);
     padding: 28px;
     padding: 3.733333333vw;
 }
@@ -915,7 +885,7 @@ h2 {
         flex-flow: row;
         max-width: 1000px;
         position: relative;
-        background: #FFFFFF80;
+        background: rgba(255, 255, 255, 0.9);
         padding: 28px;
         margin-top: 60px;
         box-shadow: 2px 0 2px #00000020;
@@ -1928,15 +1898,18 @@ table, th, td {
 .life-at-sony__content .listing {
     font-family: 'Yu Gothic Medium';
     font-size: 30px;
+    font-size: 4vw;
     line-height: 44px;
+    line-height: 5.866666667vw;
     color: #2B4A7E;
     list-style-type: disc;
     padding-left: 25px;
+    padding-left: 3.333333333vw;
 }
 
 .life-at-sony__content hr {
     border-top: 1px dashed #8799B6;
-    height: 1px;
+    height: 0.5px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1948,7 +1921,7 @@ table, th, td {
         font-family: 'Yu Gothic Medium';
         font-size: 16px;
         line-height: 26px;
-        margin-top: 40px 0;
+        margin: 40px 0;
     }
 
     .life-at-sony__content .listing {
@@ -1962,6 +1935,172 @@ table, th, td {
 
     .life-at-sony__content hr {
         border-top: 1px dashed #8799B6;
-        height: 1px;
+        height: 0.5px;
+    }
+}
+
+/*Choices Section*/
+.choices {}
+.choice-content {}
+.choice-content .title {
+    font-family: 'Yu Gothic Medium';
+    font-size: 22.5px;
+    font-size: 3vw;
+    line-height: 25px;
+    line-height: 3.333333333vw;
+    text-align: center;
+    font-weight: normal;
+    color: #FF900D;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-bottom: 1.6vw;
+}
+.choice-content .title:after {
+    content: '※1';
+    font-size: 13px;
+    font-size: 1.733333333vw;
+    position: absolute;
+    transform: translateY(-22%);
+}
+.choice-content .description {
+    font-family: 'Noto Serif';
+    text-align: center;
+    font-size: 12px;
+    font-size: 1.6vw;
+    line-height: 26px;
+    line-height: 3.466666667vw;
+}
+.insurance-choice-sp {
+    margin: 48px 0 28px 0;
+    margin: 6vw 0 3.733333333vw 0;
+}
+.insurance-choice-pc, .insurance-choice-sp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.insurance-choice__card-sp {
+    position: relative;
+    width: 50%;
+}
+.insurance-choice__card-sp:first-child {
+    padding-right: 8px;
+    padding-right: 1.066666667vw;
+}
+.insurance-choice__card-sp:last-child {
+    padding-left: 8px;
+    padding-left: 1.066666667vw;
+}
+.insurance-choice__img-sp {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border-radius: 1.333333333vw;
+    object-fit: cover;
+    object-position: center;
+}
+.insurance-choice__txt-block-sp {
+    position: absolute;
+    bottom: 10px;
+    bottom: 1.333333333vw;
+    left: 50%;
+    text-decoration: none;
+    transform: translateX(-50%);
+}
+.insurance-choice__txt-sp {
+    font-family: 'RyoGothicPlusN-Bold';
+    position: relative;
+    font-size: 27px;
+    font-size: 3.6vw;
+    line-height: 55px;
+    line-height: 7.333333333vw;
+    white-space: nowrap;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.insurance-choice__txt-sp:after {
+    background-color: rgba(0, 135, 103, 0.9);
+    content: '';
+    height: 100%;
+    position: absolute;
+    left: 0;
+    margin-left: -16px;
+    margin-left: -2.133333333vw;
+    top: 0;
+    width: calc(100% + 32px);
+    width: calc(100% + 4.266666667vw);
+    z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+    .choice-content .title {
+        font-family: 'Yu Gothic Medium';
+        font-size: 23px;
+        line-height: 25px;
+        text-align: center;
+        font-weight: normal;
+        color: #FF900D;
+        margin-bottom: 12px;
+    }
+    .choice-content .title:after {
+        content: '※1';
+        font-size: 112px;
+        position: absolute;
+        transform: translateY(-22%);
+    }
+    .choice-content .description {
+        font-family: 'Noto Serif';
+        text-align: center;
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .insurance-choice-pc {
+        margin: 30px 0 15px 0;
+    }
+    .insurance-choice__card-pc {
+        width: 50%;
+        text-decoration: none;
+    }
+
+    .insurance-choice__card-pc:first-child {
+        padding-right: 10px;
+    }
+    .insurance-choice__card-pc:last-child {
+        padding-left: 10px;
+    }
+
+    .insurance-choice__card-block-pc {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 5px;
+        background-color: #F1F1F1;
+        border-radius: 8px;
+    }
+
+    .insurance-choice__img-pc {
+        min-width: 200px;
+        height: 108px;
+        border-radius: 3px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .insurance-choice__txt-block-pc {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .insurance-choice__txt-pc {
+        display: inline;
+        font-size: 21px;
+        line-height: 25px;
+        color: #008767;
     }
 }
