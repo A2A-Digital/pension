@@ -528,9 +528,9 @@ h2 {
     display: none;
 }
 
-.contract_example {
-    display: inline-flex;
-}
+/*.contract_example {*/
+/*    display: inline-flex;*/
+/*}*/
 
 .col-2 {
     margin-top: 60px;
@@ -571,11 +571,11 @@ h2 {
         right: 0;
     }
 
-    .retire-fund-reason h1 {
-        width: 50%;
-        height: 140px;
-        padding-top: 20px;
-    }
+    /*.retire-fund-reason h1 {*/
+    /*    width: 50%;*/
+    /*    height: 140px;*/
+    /*    padding-top: 20px;*/
+    /*}*/
 
     .asset-mng__content .img-card-pc {
         display: none;
@@ -585,9 +585,9 @@ h2 {
         display: block;
     }
 
-    .contract_example {
-        display: block;
-    }
+    /*.contract_example {*/
+    /*    display: block;*/
+    /*}*/
 
     .navigation {
         width: 90%;
@@ -1071,7 +1071,7 @@ h2 {
     border: 0.266666667vw solid #c3bfb3;
     border-radius: 10px;
     border-radius: 1.333333333vw;
-    background-color: transparent;
+    background-color: #ffffff;
     padding: 30px;
     padding: 4vw;
     margin-bottom: 40px;
@@ -1085,6 +1085,7 @@ h2 {
     text-align: center;
     margin-bottom: 28px;
     margin-bottom: 3.733333333vw;
+    font-weight: bold;
 }
 
 .old-planning__box > .description {
@@ -1188,7 +1189,7 @@ h2 {
     .old-planning__box {
         border: 2px solid #c3bfb3;
         border-radius: 10px;
-        background-color: transparent;
+        background-color: #ffffff;
         padding: 30px;
         margin-bottom: 40px;
     }
@@ -1232,10 +1233,6 @@ h2 {
 /*Retire fund reason*/
 .retire-fund-reason {
     background-color: #008767;
-    background-image: url("../img/bg_sec_ttl_pc.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     position: relative;
     height: 160px;
     height: 21.33333333vw;
@@ -1257,15 +1254,46 @@ h2 {
     color: #ffffff;
 }
 
-/*Point Section General styles*/
-/*.asset-mng {*/
-/*    background-color: #e4eeff;*/
-/*    margin-top: 90px;*/
-/*    margin-top: 12vw;*/
-/*    border-radius: 10px;*/
-/*    position: relative;*/
-/*}*/
+.retire-fund-reason > .title.spacial {
+    font-size: 37px;
+    font-size: 4.933333333vw;
+}
 
+@media screen and (min-width: 768px) {
+    .retire-fund-reason {
+        background-color: #008767;
+        background-image: url("../img/bg_sec_ttl_pc.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 130px;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .retire-fund-reason > .title {
+        font-family: 'RyoGothicPlusN-Bold';
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 62px;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        display: inline-block;
+    }
+
+    .retire-fund-reason > .title.spacial {
+
+    }
+}
+
+/*Point Section General styles*/
 .asset-mng__header {
     background-color: #2B4A7E;
     border-radius: 10px 10px 0 0;
@@ -1321,7 +1349,7 @@ h2 {
 
 .content-header {
     background-color: #ffffff !important;
-    border-bottom: 2px dashed #E1DDD7 !important;
+    border-bottom: 1px dashed #E1DDD7 !important;
 }
 
 .content-header .title {
@@ -1364,6 +1392,10 @@ h2 {
     padding: 5.333333333vw 0;
 }
 
+.contract_example {
+    display: block;
+}
+
 .contract_example-box {
     font-family: 'Yu Gothic Medium';
     height: 60px;
@@ -1386,6 +1418,8 @@ h2 {
     position: relative;
     padding-bottom: 40px;
     padding-bottom: 5.333333333vw;
+    margin-bottom: 48px;
+    margin-bottom: 6.4vw;
 }
 
 .listing-text {
@@ -1395,6 +1429,8 @@ h2 {
     font-size: 2.8vw;
     line-height: 32px;
     line-height: 4.266666667vw;
+    margin-top: 28px;
+    margin-top: 3.733333333vw;
 }
 
 .content .title {
@@ -1443,7 +1479,160 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
+    .asset-mng__header {
+        background-color: #2B4A7E;
+        border-radius: 10px 10px 0 0;
+        color: #fff;
+        text-align: center;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        position: relative;
+    }
 
+    .asset-mng__header > .number {
+        font-family: 'DIN Bold';
+        font-weight: bold;
+        background-color: #ff8080;
+        border-radius: 50%;
+        width: 96px;
+        height: 96px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        transform: translateY(-85%);
+        left: 20px;
+        font-size: 36px;
+        border: solid 3px #ffffff;
+    }
+
+    .asset-mng__header > .title {
+        font-family: 'Yu Gothic Medium';
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .asset-mng__content .content-header {
+        text-align: center;
+        padding: 35px;
+        margin-top: 50px;
+        background-color: #2B4A7E;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .content-header {
+        background-color: #ffffff !important;
+        border-bottom: 1px dashed #E1DDD7 !important;
+    }
+
+    .content-header .title {
+        font-family: 'Yu Gothic Medium';
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .asset-mng__content {
+        background-color: white;
+        width: 91%;
+        margin: 0 auto;
+    }
+
+    .asset-mng__content .content-img {
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .toggle {
+        right: 24px;
+        position: absolute;
+        top: 32%;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+    }
+
+    .toggle img{
+        width: 100%;
+    }
+
+    .asset-mng__content .content {
+        padding: 40px 0;
+    }
+
+    .contract_example {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .contract_example-box {
+        font-family: 'Yu Gothic Medium';
+        font-size: 18px;
+        height: 60px;
+        background-color: #808080;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        width: 79%;
+    }
+
+    .asset-mng {
+        background-color: #e4eeff;
+        margin-top: 90px;
+        border-radius: 10px;
+        position: relative;
+        padding-bottom: 40px;
+        margin-bottom: 48px
+    }
+
+    .listing-text {
+        font-family: 'Yu Gothic Medium';
+        text-align: left;
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    .content .title {
+        font-family: 'Yu Gothic Medium';
+        font-size: 30px;
+        line-height: 42px;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .table_pc {
+        display: none;
+        padding-top: 20px;
+    }
+
+    .table_sp {
+        display: block;
+    }
+
+    .content img {
+        padding: 40px 0;
+        width: 100%;
+    }
+
+    .asset-mng__content__txt {
+        font-family: "Yu Gothic Medium";
+        font-size: 24px;
+        line-height: 42px;
+        text-align: center;
+        width: 100%;
+        padding: 48px 0;
+        background-color: #E4EEFF;
+    }
+
+    .benefit3_top {
+        margin-top: 50px;
+    }
 }
 /*Point 2 Section*/
 .content-header > .content-header__txt {
@@ -1586,7 +1775,6 @@ table, th, td {
         padding-top: 50px;
     }
     .table-img {
-        padding-top: 55px;
-
+        padding: 55px 0;
     }
 }
