@@ -1289,7 +1289,8 @@ h2 {
     }
 
     .retire-fund-reason > .title.spacial {
-
+        font-size: 30px;
+        line-height: 46px;
     }
 }
 
