@@ -728,17 +728,19 @@
     <div style="text-align: right;padding: 2vw 0;">
         <span style="font-size: 0.8784773060029283vw; ">SL19-7271-0123</span>
     </div>
-</div>
-</div>
-<!-- <div class="copy-right">
-    <div class="copy-right__txt">
-        ©2021 Sony Life Insurance Co., Ltd. All Rights Reserved.
+
+    <div class="copy-right">
+        <div class="copy-right__txt">
+            ©
+            <script>document.write(new Date().getFullYear());</script>
+            Sony Life Insurance Co., Ltd. All Rights Reserved.
+        </div>
     </div>
-</div> -->
-<!--<footer class="footer-nav">-->
-<!--    <img class="footer-pc" src="./assets/img/img_footer_cv_pc.png" style="max-width: 73.20644216691069vw;  ">-->
-<!--    <img class="footer-sp" src="./assets/img/img_footer_cv_sp.png" style="display: none;">-->
-<!--</footer>-->
+</div>
+<footer class="footer-nav show">
+    <img class="pc-item" src="./assets/img/img_footer_cv_pc.png" style="width: 100%; max-width: 1000px; margin: 0 auto">
+    <img class="sp-item" src="./assets/img/img_footer_cv_sp.png" style="width: 100%">
+</footer>
 <script src="./assets/js/script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
@@ -794,27 +796,27 @@
                 .next('.section')
                 .slideToggle('fast');
         });
-        $(window).scroll(function (event) {
-            function footer() {
-                var scroll = $(window).scrollTop();
-                if (scroll > 20) {
-                    $(".footer-nav").fadeIn("slow").addClass("show");
-                } else {
-                    $(".footer-nav").fadeOut("slow").removeClass("show");
-                }
-
-                clearTimeout($.data(this, 'scrollTimer'));
-                $.data(this, 'scrollTimer', setTimeout(function () {
-                    if ($('.footer-nav').is(':hover')) {
-                        footer();
-                    } else {
-                        $(".footer-nav").fadeOut("slow");
-                    }
-                }, 2000));
-            }
-
-            footer();
-        });
+        // $(window).scroll(function (event) {
+        //     function footer() {
+        //         var scroll = $(window).scrollTop();
+        //         if (scroll > 20) {
+        //             $(".footer-nav").fadeIn("slow").addClass("show");
+        //         } else {
+        //             $(".footer-nav").fadeOut("slow").removeClass("show");
+        //         }
+        //
+        //         clearTimeout($.data(this, 'scrollTimer'));
+        //         $.data(this, 'scrollTimer', setTimeout(function () {
+        //             if ($('.footer-nav').is(':hover')) {
+        //                 footer();
+        //             } else {
+        //                 $(".footer-nav").fadeOut("slow");
+        //             }
+        //         }, 2000));
+        //     }
+        //
+        //     footer();
+        // });
 
     });
 </script>
