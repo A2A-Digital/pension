@@ -2440,6 +2440,8 @@ table, th, td {
 .pdf {
     border: 2px solid #C4C4C4;
     border-radius: 5px;
+    padding-bottom: 54px;
+    padding-bottom: 7.2vw;
 }
 .pdf__txt-1 {
     color: #008667;
@@ -2474,6 +2476,10 @@ table, th, td {
     width: 8.5vw;
     height: 64px;
     height: 8.5vw;
+}
+.pdf__img img {
+    width: 64px;
+    width: 8.533333333vw;
 }
 @media screen and (min-width: 768px) {
     .pdf__txt-1-pc {
