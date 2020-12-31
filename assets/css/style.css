@@ -2233,9 +2233,8 @@ table, th, td {
         width: 100%;
     }
     .announce-img {
-        margin-top: 10px;
-        margin-bottom: 30px;
-        width: 100%;
+        margin: 10px auto 30px;
+        width: 98.508%;
     }
 }
 /* Consult Line Section */
