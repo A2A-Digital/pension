@@ -1818,8 +1818,8 @@ table, th, td {
 .consult-flow__header:after {
     content: " ";
     position: absolute;
-    bottom: -15px;
-    bottom: -2vw;
+    bottom: -13px;
+    bottom: -1.733333333vw;
     border-top: 15px solid #26997E;
     border-top: 2vw solid #26997E;
     border-right: 15px solid transparent;
@@ -1847,7 +1847,6 @@ table, th, td {
     height: 21px;
     height: 3.8vw;
     cursor: pointer;
-    transform: rotate(180deg);
 }
 
 .consult-flow__content {
@@ -1984,7 +1983,6 @@ table, th, td {
         width: 21px;
         height: 21px;
         cursor: pointer;
-        transform: rotate(180deg);
     }
 
     .consult-flow__content {
@@ -2405,4 +2403,17 @@ table, th, td {
         padding-top:30px;
         padding-bottom: 25px;
     }
+}
+
+.rotate-180 {
+    transform: rotate(180deg) !important;
+    transition-duration: 0.3s;
+}
+.rotate-neg-180 {
+    transform: rotate(-180deg) !important;
+    transition-duration: 0.3s;
+}
+.rotate-0 {
+    transform: rotate(0deg) !important;
+    transition-duration: 0.3s;
 }
