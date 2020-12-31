@@ -1748,7 +1748,9 @@ table, th, td {
 
 .td-txt {
     padding-top: 19px;
+    padding-top: 2.533333333vw;
     padding-bottom: 19px;
+    padding-bottom: 2.533333333vw;
     padding-left: 19px;
     padding-left: 2.533333333vw;
     font-size: 24px;
@@ -1763,7 +1765,7 @@ table, th, td {
 .td-txt .spacial {
     position: relative;
     left: -15px;
-    left: 2vw;
+    left: -2vw;
     font-size: 22px;
     font-size: 2.933333333vw;
 }
