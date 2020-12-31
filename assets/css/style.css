@@ -2406,7 +2406,7 @@ table, th, td {
     line-height: 56px;
     line-height: 7.4vw;
 }
-.pdf__img {
+.pdf-link {
     text-align: center;
     font-size: 32px;
     font-size: 4.2vw;
@@ -2415,7 +2415,12 @@ table, th, td {
     padding-bottom: 80px;
     padding-bottom: 10.5vw;
 }
-
+.pdf-link__img {
+    width: 64px;
+    width: 8.5vw;
+    height: 64px;
+    height: 8.5vw;
+}
 @media screen and (min-width: 768px) {
     .pdf__txt-1-pc {
         color: black;
@@ -2437,13 +2442,16 @@ table, th, td {
 /* Consideration Section*/
 .consider-point {
     font-size: 42px;
-    font-size: 5.4vw;
+    font-size: 5vw;
     margin-top: 93px;
     margin-top: 13vw;
     line-height: 62px;
     line-height: 8vw;
     margin-bottom: 56px;
     margin-bottom: 7vw;
+    padding-left:45px;
+    padding-left:3.3vw;
+    text-align: center;
     color: #008667;
 }
 .consider-point__img {
@@ -2453,12 +2461,13 @@ table, th, td {
 }
 .consider-point__txt-1 {
     font-size: 30px;
-    font-size: 4vw;
+    font-size: 2.5vw;
     line-height: 52px;
     line-height: 7vw;
     margin-bottom: 38px;
-    margin-bottom: 5vw;
+    margin-bottom: 1vw;
     color: #008767;
+    text-align: center;
 }
 #mobile-span::before {
     content: "\a";
@@ -2471,7 +2480,7 @@ table, th, td {
     line-height: 8vw;
     text-align: center;
     margin-bottom: 42px;
-    margin-bottom: 5.6vw;
+    margin-bottom: 1vw;
     color: #008767;
 }
 .consider-point__txt-3 {
@@ -2581,9 +2590,13 @@ table, th, td {
 }
 .content-2__img {
     width: 50px;
+    width: 6.6vw;
     height: 30px;
+    height: 4vw;
     transform: translateY(15px);
+    transform: translateY(4vw);
     margin-right: 30px;
+    margin-right: 4vw;
 }
 .content-txt-2 {
     font-size: 52px;
@@ -2593,6 +2606,7 @@ table, th, td {
     text-align: center;
     color: #FF1505;
     font-weight: bold;
+    text-decoration: none;
 }
 .content-txt-3 {
     font-size: 24px;
@@ -2655,7 +2669,7 @@ table, th, td {
 }
 .precaution-content {
     font-size: 24px;
-    font-size: 3.2vw;
+    font-size: 2.7vw;
     line-height: 42px;
     line-height: 5.6vw;
 }
