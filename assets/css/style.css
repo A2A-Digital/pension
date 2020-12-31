@@ -966,7 +966,6 @@ h2 {
     margin-top: 6.666666667vw;
     background-color: #2B4A7E;
     position: relative;
-    cursor: pointer;
 }
 
 .content-header {
@@ -2063,6 +2062,7 @@ table, th, td {
     padding-bottom: 7.2vw;
 }
 .pdf__txt-1 {
+    font-family: 'RyoGothicPlusN-Medium';
     color: #008667;
     padding: 54px 138px 53px 141px;
     padding: 7.2vw 14.8px 7px 19px;
