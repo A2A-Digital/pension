@@ -1,6 +1,7 @@
 @font-face {
     font-family: "DIN Bold";
-    src: url("../font/DIN Bold.ttf") format("truetype");
+    font-weight: bold;
+    src: url("../font/DIN-Bold.ttf") format("truetype");
 }
 
 @font-face {
@@ -27,6 +28,14 @@
 body {
     color: #000000;
     font-family: "りょうゴシック PlusN", "RyoGothicPlusN-Reegular", "Noto Serif", "Arial", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+* {
+    font-family: "りょうゴシック PlusN", "RyoGothicPlusN-Reegular", "Noto Serif", "Arial", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+.lazy-load {
+    background-color: #cccccc;
 }
 
 .sp-item {
@@ -57,13 +66,16 @@ body {
     font-size: 4.262857143vw;
     position: relative;
     overflow: hidden;
+    padding-bottom: 214px;
+    padding-bottom: 28.53333333vw;
 }
 
 @media screen and (min-width: 768px) {
     .wrapper {
         font-size: 20px;
         max-width: 1600px;
-        margin: 0 auto
+        margin: 0 auto;
+        padding-bottom: 120px;
     }
 }
 
@@ -532,6 +544,7 @@ h2 {
 
     .insurance {
         text-align: start;
+        height: 14px;
     }
 
     /*h1.mv-img__txt {*/
@@ -636,22 +649,22 @@ h2 {
     /*}*/
 }
 
-@media (max-width: 750px) {
-    .asset-mng__content .row {
-        display: block;
-    }
-}
+/*@media (max-width: 750px) {*/
+/*    .asset-mng__content .row {*/
+/*        display: block;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 750px) {
-    .footer-pc {
-        display: none;
-    }
+/*@media (max-width: 750px) {*/
+/*    .footer-pc {*/
+/*        display: none;*/
+/*    }*/
 
-    .footer-sp {
-        display: block !important;
-        width: 100%;
-    }
-}
+/*    .footer-sp {*/
+/*        display: block !important;*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
 
 /*.indtroduction_one {*/
 /*  font-size: 30px;*/
@@ -1003,10 +1016,20 @@ h2 {
     content: '';
 }
 
-.highlight-text {
-    text-decoration-color: #FFE77A;
-    text-decoration-thickness: 10px;
-    text-decoration-thickness: 1.333333333vw;
+.yellow-underline {
+    color: inherit;
+    position: relative;
+    z-index: 1;
+}
+.yellow-underline:after {
+    background-color: #FFE77A;
+    content: '';
+    height: 20%;
+    position: absolute;
+    left: 0;
+    top: 74%;
+    width: 100%;
+    z-index: -1;
 }
 
 .old-planning {
@@ -1101,7 +1124,7 @@ h2 {
 @media screen and (min-width: 768px) {
     .insurance {
         font-family: 'RyoGothicPlusN-Medium';
-        margin-top: 85px;
+        margin-top: 50px;
         text-align: center;
     }
 
@@ -1340,6 +1363,8 @@ h2 {
     background-color: white;
     width: 86.57%;
     margin: 0 auto;
+    padding-bottom: 30px;
+    padding-bottom: 4vw;
 }
 
 .asset-mng__content .content-img {
@@ -1486,6 +1511,7 @@ h2 {
         font-family: 'Yu Gothic Medium';
         font-size: 34px;
         line-height: 48px;
+        padding: 0 125px;
     }
 
     .asset-mng__content .content-header {
@@ -1512,6 +1538,7 @@ h2 {
         background-color: white;
         width: 91%;
         margin: 0 auto;
+        padding-bottom: 70px;
     }
 
     .asset-mng__content .content-img {
@@ -1692,7 +1719,7 @@ table, th, td {
 .table-sp td:nth-child(1) {
     background-color: #E4F2F9;
     text-align: center;
-    width: 40%;
+    width: 35%;
     vertical-align: middle;
 }
 
@@ -1722,9 +1749,17 @@ table, th, td {
     font-size: 3.2vw;
     padding-right: 19px;
     padding-right: 2.533333333vw;
-    line-height: 24px;
-    line-height: 3.2vw;
+    line-height: 30px;
+    line-height: 4vw;
     font-family: 'Yu Gothic Medium';
+}
+
+.td-txt .spacial {
+    position: relative;
+    left: -15px;
+    left: 2vw;
+    font-size: 22px;
+    font-size: 2.933333333vw;
 }
 
 .td-title {
@@ -1737,8 +1772,6 @@ table, th, td {
     font-weight: normal;
     padding-top: 15.6px;
     padding-top: 2.08vw;
-    height: 102px;
-    height: 13.6vw;
     margin-bottom: 0px;
     margin-bottom: 0vw;
     padding-bottom: 0px;
@@ -2277,7 +2310,9 @@ table, th, td {
 
 .consult-flow__footer > .footer-img {
     height: 37px;
+    height: 4.933333333vw;
     width: 20px;
+    width: 2.666666667vw;
 }
 
 @media screen and (min-width: 768px) {
@@ -2373,6 +2408,7 @@ table, th, td {
     }
 
     .consult-flow__footer > .footer-text {
+        font-family: 'Yu Gothic Medium';
         position: absolute;
         color: #26997E;
         background-color: white;
