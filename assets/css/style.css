@@ -465,6 +465,8 @@ hr {
         padding: 37px 0;
         width: 100%;
         background-color: #eeeeee;
+        max-width: 1000px;
+        margin: 0 auto;
     }
 
     .copy-right__txt {
@@ -2513,7 +2515,7 @@ table, th, td {
 }
 .consider-point__txt-1 {
     font-size: 30px;
-    font-size: 2.5vw;
+    font-size: 4vw;
     line-height: 52px;
     line-height: 7vw;
     margin-bottom: 38px;
@@ -2526,8 +2528,9 @@ table, th, td {
     white-space: pre;
 }
 .consider-point__txt-2 {
-    font-size: 30px;
-    font-size: 4vw;
+    font-family: 'RyoGothicPlusN-Medium';
+    font-size: 39px;
+    font-size: 5.2vw;
     line-height: 62px;
     line-height: 8vw;
     text-align: center;
