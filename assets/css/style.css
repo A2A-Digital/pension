@@ -105,6 +105,9 @@ body {
 .header a, .header h1 {
     height: 48px;
     height: 6.4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .header img {
