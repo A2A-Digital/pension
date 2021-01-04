@@ -253,6 +253,7 @@ hr {
     text-align: center;
     cursor: pointer;
     display: none;
+    z-index: 99;
 }
 
 .show,
@@ -1226,8 +1227,8 @@ h2 {
 
     .content .title {
         font-family: 'Yu Gothic Medium';
-        font-size: 30px;
-        line-height: 42px;
+        font-size: 18px;
+        line-height: 25px;
         margin-top: 40px;
         text-align: center;
     }
@@ -1931,11 +1932,9 @@ table, th, td {
     font-size: 4.2vw;
 }
 
-.consult-flow__footer > .footer-img {
-    height: 37px;
-    height: 4.933333333vw;
-    width: 20px;
-    width: 2.666666667vw;
+.consult-flow__footer .footer-img {
+    width: 38px;
+    width: 5.066666667vw;
 }
 
 @media screen and (min-width: 768px) {
@@ -1964,7 +1963,7 @@ table, th, td {
     .consult-flow__header:after {
         content: " ";
         position: absolute;
-        bottom: -15px;
+        bottom: -13px;
         border-top: 15px solid #26997E;
         border-right: 15px solid transparent;
         border-left: 15px solid transparent;
@@ -2047,9 +2046,8 @@ table, th, td {
         cursor: pointer;
     }
 
-    .consult-flow__footer > .footer-img {
-        height: 37px;
-        width: 20px;
+    .consult-flow__footer .footer-img {
+        width: 18px;
     }
 }
 /* Download PDF Section */
