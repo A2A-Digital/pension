@@ -2249,9 +2249,13 @@ table, th, td {
 }
 .consult-line-content {
     border: 1px solid #A0A0A0;
+    border: 0.133333333vw solid #A0A0A0;
     border-radius: 5px;
+    border-radius: 0.666666667vw;
     padding: 32px 0;
+    padding: 4.266666667vw 0;
     margin-bottom: 25px;
+    margin-bottom: 3.333333333vw;
 }
 .content-txt-1 {
     font-size: 30px;
@@ -2306,6 +2310,8 @@ table, th, td {
     .consult-line-content {
         border: 1px solid #A0A0A0;
         border-radius: 5px;
+        padding: 32px 0;
+        margin-bottom: 25px;
     }
     .content-txt-1 {
         font-size: 26px;
