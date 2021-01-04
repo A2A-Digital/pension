@@ -1530,8 +1530,8 @@ table, th, td {
 .choice-content .description {
     font-family: 'Noto Serif';
     text-align: center;
-    font-size: 12px;
-    font-size: 1.6vw;
+    font-size: 15px;
+    font-size: 2vw;
     line-height: 26px;
     line-height: 3.466666667vw;
 }
