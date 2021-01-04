@@ -2066,7 +2066,7 @@ table, th, td {
     padding-bottom: 7.2vw;
 }
 .pdf__txt-1 {
-    font-family: 'RyoGothicPlusN-Medium';
+    font-family: 'Yu Gothic Medium';
     color: #008667;
     padding: 54px 138px 53px 141px;
     padding: 7.2vw 14.8px 7px 19px;
@@ -2079,6 +2079,7 @@ table, th, td {
     line-height: 8.2vw;
 }
 .pdf__txt-2 {
+    font-family: 'Yu Gothic Medium';
     text-align: center;
     font-size: 32px;
     font-size: 4.2vw;
@@ -2119,9 +2120,11 @@ table, th, td {
         display: flex;
     }
     .pdf__img-pc{
-        width: 40px;
-        height: 40px;
+        width: 32px;
+        height: 32px;
         padding:0;
+        margin-right:6px;
+        margin-left: 40px;
     }
 }
 
@@ -2354,12 +2357,14 @@ table, th, td {
 }
 
 .precaution-header {
+    font-family: "Yu Gothic Medium";
     font-size: 30px;
     font-size: 4vw;
     line-height: 52px;
     line-height: 7vw;
 }
 .precaution-content {
+    font-family: "Yu Gothic Medium";
     font-size: 24px;
     font-size: 2.7vw;
     line-height: 42px;
