@@ -1974,7 +1974,16 @@ table, th, td {
         font-size: 34px;
         line-height: 61px;
     }
-
+    .word-wrapper {
+        display: flex;
+        padding-left: 125px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .word-wrapper > .word1 {
+        color: #FFFF00;
+        margin-right:50px;
+    }
     .consult-flow__header > .header-img {
         position: absolute;
         top: 96px;
