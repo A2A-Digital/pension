@@ -1317,11 +1317,6 @@ table, th, td {
     border: 1px solid #7FC2E4;
     border-collapse: collapse;
 }
-
-#arrow-3 {
-    display: none;
-}
-
 .table-pc {
     display: none;
 !important;
