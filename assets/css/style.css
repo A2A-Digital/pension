@@ -2110,6 +2110,7 @@ table, th, td {
         padding-bottom: 0;
     }
     .pdf__txt-1-pc {
+        font-family: "Yu Gothic Medium";
         color: black;
         font-size: 16px;
         line-height: 28px;
