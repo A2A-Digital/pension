@@ -650,7 +650,7 @@
                     </div>
                 </div>
 
-                <img class="header-img" src="assets/img/arrow-down-white.png" alt>
+                <img class="header-img" src="assets/img/arrow-up-white.png" alt>
 
             </div>
             <div class="consult-flow__content content-body" id="step-content">
@@ -700,8 +700,8 @@
             </div>
             <div class="consult-flow__footer">
                 <span class="footer-text">
-                    <img class="footer-img" src="assets/img/arrow-down-green.png" alt>
-                    <span class="open-close">開く</span>
+                    <img class="footer-img" src="assets/img/arrow-up-green.png" alt>
+                    <span class="open-close">閉じる</span>
                 </span>
             </div>
         </div>
@@ -1028,16 +1028,6 @@
         $('.header-img').click(function () {
             var $this = $('.open-close')
             if ($("#step-content").is(":hidden")) {
-                $('.header-img').removeClass('rotate-180')
-                $('.header-img').addClass('rotate-neg-180')
-                $('.header-img').removeClass('rotate-0')
-                $('.footer-img').removeClass('rotate-180')
-                $('.footer-img').addClass('rotate-neg-180')
-                $('.footer-img').removeClass('rotate-0')
-                $this.text('閉じる')
-
-            } else {
-
                 $('.header-img').addClass('rotate-0')
                 $('.header-img').removeClass('rotate-neg-180')
                 $('.header-img').addClass('rotate-180')
@@ -1045,21 +1035,23 @@
                 $('.footer-img').removeClass('rotate-neg-180')
                 $('.footer-img').addClass('rotate-180')
                 $this.text('開く')
+
+
+            } else {
+
+                $('.header-img').removeClass('rotate-180')
+                $('.header-img').addClass('rotate-neg-180')
+                $('.header-img').removeClass('rotate-0')
+                $('.footer-img').removeClass('rotate-180')
+                $('.footer-img').addClass('rotate-neg-180')
+                $('.footer-img').removeClass('rotate-0')
+                $this.text('閉じる')
             }
             $("#step-content").slideToggle("slow");
         })
         $('.footer-text').click(function () {
             var $this = $('.open-close')
             if ($("#step-content").is(":hidden")) {
-                $('.header-img').removeClass('rotate-180')
-                $('.header-img').addClass('rotate-neg-180')
-                $('.header-img').removeClass('rotate-0')
-                $('.footer-img').removeClass('rotate-180')
-                $('.footer-img').addClass('rotate-neg-180')
-                $('.footer-img').removeClass('rotate-0')
-                $this.text('閉じる')
-
-            } else {
                 $('.header-img').addClass('rotate-0')
                 $('.header-img').removeClass('rotate-neg-180')
                 $('.header-img').addClass('rotate-180')
@@ -1067,6 +1059,16 @@
                 $('.footer-img').removeClass('rotate-neg-180')
                 $('.footer-img').addClass('rotate-180')
                 $this.text('開く')
+
+            } else {
+
+                $('.header-img').removeClass('rotate-180')
+                $('.header-img').addClass('rotate-neg-180')
+                $('.header-img').removeClass('rotate-0')
+                $('.footer-img').removeClass('rotate-180')
+                $('.footer-img').addClass('rotate-neg-180')
+                $('.footer-img').removeClass('rotate-0')
+                $this.text('閉じる')
             }
             $("#step-content").slideToggle("slow");
         })
