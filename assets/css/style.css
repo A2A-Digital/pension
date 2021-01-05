@@ -2199,6 +2199,7 @@ table, th, td {
 
 @media screen and (min-width: 758px) {
     .consider-point {
+        font-family: 'RyoGothicPlusN-Medium';
         font-size: 40px;
         margin-top: 57px;
         line-height: 62px;
