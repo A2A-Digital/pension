@@ -1550,7 +1550,6 @@ table, th, td {
 .insurance-choice__card-sp {
     position: relative;
     width: 50%;
-    cursor: pointer;
 }
 .insurance-choice__card-sp:first-child {
     padding-right: 8px;
@@ -1630,7 +1629,6 @@ table, th, td {
     .insurance-choice__card-pc {
         width: 50%;
         text-decoration: none;
-        cursor: pointer;
     }
 
     .insurance-choice__card-pc:first-child {
