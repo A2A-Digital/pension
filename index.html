@@ -1011,7 +1011,6 @@
                 .next('.section')
                 .slideToggle('fast');
         });
-
         $('.header-img').change(function () {
             if ($("#step-content").is(":hidden")) {
                 $('.header-img').addClass('rotate-0')
@@ -1023,7 +1022,6 @@
                 $('.header-img').removeClass('rotate-0')
             }
             $("#step-content").slideToggle("slow");
-
         })
         $('.header-img').click(function () {
             var $this = $('.open-close')
@@ -1034,18 +1032,15 @@
                 $('.footer-img').addClass('rotate-0')
                 $('.footer-img').removeClass('rotate-neg-180')
                 $('.footer-img').addClass('rotate-180')
-                $this.text('開く')
-
-
+                $this.text('閉じる')
             } else {
-
                 $('.header-img').removeClass('rotate-180')
                 $('.header-img').addClass('rotate-neg-180')
                 $('.header-img').removeClass('rotate-0')
                 $('.footer-img').removeClass('rotate-180')
                 $('.footer-img').addClass('rotate-neg-180')
                 $('.footer-img').removeClass('rotate-0')
-                $this.text('閉じる')
+                $this.text('開く')
             }
             $("#step-content").slideToggle("slow");
         })
@@ -1058,17 +1053,15 @@
                 $('.footer-img').addClass('rotate-0')
                 $('.footer-img').removeClass('rotate-neg-180')
                 $('.footer-img').addClass('rotate-180')
-                $this.text('開く')
-
+                $this.text('閉じる')
             } else {
-
                 $('.header-img').removeClass('rotate-180')
                 $('.header-img').addClass('rotate-neg-180')
                 $('.header-img').removeClass('rotate-0')
                 $('.footer-img').removeClass('rotate-180')
                 $('.footer-img').addClass('rotate-neg-180')
                 $('.footer-img').removeClass('rotate-0')
-                $this.text('閉じる')
+                $this.text('開く')
             }
             $("#step-content").slideToggle("slow");
         })
