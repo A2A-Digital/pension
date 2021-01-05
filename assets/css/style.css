@@ -41,7 +41,6 @@ body {
 .sp-item {
     display: block !important
 }
-
 @media screen and (min-width: 768px) {
     .sp-item {
         display: none !important
@@ -1168,7 +1167,6 @@ h2 {
         margin: 0 auto;
         padding-bottom: 0;
     }
-
     .asset-mng__content .content-img {
         width: 100%;
         padding: 40px 0;
@@ -1552,6 +1550,7 @@ table, th, td {
 .insurance-choice__card-sp {
     position: relative;
     width: 50%;
+    cursor: pointer;
 }
 .insurance-choice__card-sp:first-child {
     padding-right: 8px;
@@ -1631,6 +1630,7 @@ table, th, td {
     .insurance-choice__card-pc {
         width: 50%;
         text-decoration: none;
+        cursor: pointer;
     }
 
     .insurance-choice__card-pc:first-child {

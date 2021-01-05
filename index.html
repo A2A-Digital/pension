@@ -140,7 +140,7 @@
                     </div>
                 </div>
 
-                <div class="asset-mng__content " id="content-2">
+                <div class="asset-mng__content" id="content-2">
                     <div class="content">
                         <div class="row contract_example">
                             <div class="contract_example-box">
@@ -194,7 +194,7 @@
                     </div>
                 </div>
                 <div class="asset-mng__content" id="content-3">
-                    <img class="pc-item table-img" src="assets/img/img_point2.png" width="100%">
+                    <img id="content-3-img" class="pc-item table-img" src="assets/img/img_point2.png" width="100%">
                     <!-- Table One -->
                     <table class="table-sp" width="100%">
                         <tr>
@@ -449,6 +449,8 @@
         <img class="pc-item" style="width: 100%;" src="assets/img/img_banner_pc.png" alt>
         <img class="sp-item" style="width: 100%" src="assets/img/img_banner_sp.png" alt>
     </div>
+
+    <!-- Part 3 Section   -->
     <div class="container">
         <section class="asset-mng">
             <div class="asset-mng__header">
@@ -576,38 +578,38 @@
             <div class="choice-content">
                 <div class="sp-item">
                     <div class="insurance-choice-sp">
-                        <a href="#" class="insurance-choice__card-sp">
+                        <div class="insurance-choice__card-sp">
                             <img class="insurance-choice__img-sp" src="assets/img/img_flow_choice1.jpg" alt>
                             <div class="insurance-choice__txt-block-sp">
                                 <p class="insurance-choice__txt-sp">直接お会いしてご相談</p>
                             </div>
-                        </a>
-                        <a href="#" class="insurance-choice__card-sp">
+                        </div>
+                        <div class="insurance-choice__card-sp">
                             <img class="insurance-choice__img-sp" src="assets/img/img_flow_choice2.jpg" alt>
                             <div class="insurance-choice__txt-block-sp">
                                 <p class="insurance-choice__txt-sp">オンラインでのご相談</p>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
                 <div class="pc-item">
                     <div class="insurance-choice-pc">
-                        <a href="#" class="insurance-choice__card-pc">
+                        <div href="#" class="insurance-choice__card-pc">
                             <div class="insurance-choice__card-block-pc">
                                 <img class="insurance-choice__img-pc" src="assets/img/img_flow_choice1.jpg" alt>
                                 <div class="insurance-choice__txt-block-pc">
                                     <p class="insurance-choice__txt-pc">直接お会いしてご相談</p>
                                 </div>
                             </div>
-                        </a>
-                        <a href="#" class="insurance-choice__card-pc">
+                        </div>
+                        <div class="insurance-choice__card-pc">
                             <div class="insurance-choice__card-block-pc">
                                 <img class="insurance-choice__img-pc" src="assets/img/img_flow_choice2.jpg" alt>
                                 <div class="insurance-choice__txt-block-pc">
                                     <p class="insurance-choice__txt-pc">オンラインでのご相談</p>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
                 <h3 class="title">
@@ -648,10 +650,10 @@
                     </div>
                 </div>
 
-                <img class="header-img" src="assets/img/arrow-up-white.png" alt>
+                <img class="header-img" src="assets/img/arrow-down-white.png" alt>
 
             </div>
-            <div class="consult-flow__content" id="step-content">
+            <div class="consult-flow__content content-body" id="step-content">
                 <a href="https://www.sonylife.co.jp/direct/bin/frwd2.cgi?/otoiawase/consultation/index.html&110KJN">
                     <img class="pc-item img-width" src="assets/img/img_flow_step1_pc.png" alt>
                 </a>
@@ -698,8 +700,8 @@
             </div>
             <div class="consult-flow__footer">
                 <span class="footer-text">
-                    <img class="footer-img" src="assets/img/arrow-up-green.png" alt>
-                    閉じる
+                    <img class="footer-img" src="assets/img/arrow-down-green.png" alt>
+                    <span class="open-close">開く</span>
                 </span>
             </div>
         </div>
@@ -901,6 +903,7 @@
                 $('#arrow-3').attr('src', 'assets/img/img_circle_arrow_up.png');
             } else {
                 $('#arrow-3').attr('src', 'assets/img/img_circle_arrow_down.png');
+
             }
             $("#content-3").slideToggle("slow");
         });
@@ -1023,38 +1026,47 @@
 
         })
         $('.header-img').click(function () {
+            var $this = $('.open-close')
             if ($("#step-content").is(":hidden")) {
-                $('.header-img').addClass('rotate-0')
-                $('.header-img').removeClass('rotate-neg-180')
-                $('.header-img').addClass('rotate-180')
-                $('.footer-img').addClass('rotate-0')
-                $('.footer-img').removeClass('rotate-neg-180')
-                $('.footer-img').addClass('rotate-180')
-            } else {
                 $('.header-img').removeClass('rotate-180')
                 $('.header-img').addClass('rotate-neg-180')
                 $('.header-img').removeClass('rotate-0')
                 $('.footer-img').removeClass('rotate-180')
                 $('.footer-img').addClass('rotate-neg-180')
                 $('.footer-img').removeClass('rotate-0')
+                $this.text('閉じる')
+
+            } else {
+
+                $('.header-img').addClass('rotate-0')
+                $('.header-img').removeClass('rotate-neg-180')
+                $('.header-img').addClass('rotate-180')
+                $('.footer-img').addClass('rotate-0')
+                $('.footer-img').removeClass('rotate-neg-180')
+                $('.footer-img').addClass('rotate-180')
+                $this.text('開く')
             }
             $("#step-content").slideToggle("slow");
         })
         $('.footer-text').click(function () {
+            var $this = $('.open-close')
             if ($("#step-content").is(":hidden")) {
-                $('.footer-img').addClass('rotate-0')
-                $('.footer-img').removeClass('rotate-neg-180')
-                $('.footer-img').addClass('rotate-180')
-                $('.header-img').addClass('rotate-0')
-                $('.header-img').removeClass('rotate-neg-180')
-                $('.header-img').addClass('rotate-180')
-            } else {
-                $('.footer-img').removeClass('rotate-180')
-                $('.footer-img').addClass('rotate-neg-180')
-                $('.footer-img').removeClass('rotate-0')
                 $('.header-img').removeClass('rotate-180')
                 $('.header-img').addClass('rotate-neg-180')
                 $('.header-img').removeClass('rotate-0')
+                $('.footer-img').removeClass('rotate-180')
+                $('.footer-img').addClass('rotate-neg-180')
+                $('.footer-img').removeClass('rotate-0')
+                $this.text('閉じる')
+
+            } else {
+                $('.header-img').addClass('rotate-0')
+                $('.header-img').removeClass('rotate-neg-180')
+                $('.header-img').addClass('rotate-180')
+                $('.footer-img').addClass('rotate-0')
+                $('.footer-img').removeClass('rotate-neg-180')
+                $('.footer-img').addClass('rotate-180')
+                $this.text('開く')
             }
             $("#step-content").slideToggle("slow");
         })
