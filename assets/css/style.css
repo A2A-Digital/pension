@@ -540,6 +540,72 @@ h2 {
         margin-top: 60px;
         box-shadow: 2px 0 2px #00000020;
     }
+    .card {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-flow: column;
+        margin-bottom: 0;
+        width: 33.33333333%;
+        padding: 5px;
+    }
+
+    .card:last-child {
+        margin-bottom: 0;
+    }
+
+    .card-title {
+        background-color: #f47f00;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        opacity: 1;
+        width: 100%;
+        min-width: 8vw;
+        height: 40px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .card-title .point-text {
+        font-family: "DIN Bold";
+        font-size: 14.4px;
+        color: #ffffff;
+        margin-right: 5px;
+    }
+
+    .card-title .card-num {
+        font-family: "DIN Bold";
+        font-size: 26px;
+        color: #ffffff;
+    }
+
+    .card-content {
+        font-family: "RyoGothicPlusN-Medium";
+        font-size: 11px;
+        line-height: 20px;
+        color: #2b4a7e;
+    }
+}
+@media screen and (min-width: 1030px) {
+    .card-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-flow: row;
+        max-width: 1000px;
+        position: relative;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 28px;
+        margin-top: 60px;
+        box-shadow: 2px 0 2px #00000020;
+    }
 
     .card {
         display: -webkit-box;
@@ -1327,8 +1393,8 @@ table, th, td {
 
 .table-sp {
     display: table;
-    padding: 51px 45px 11px;
-    padding: 6.8vw 6vw 1.466666667vw;
+    /*padding: 51px 45px 11px;*/
+    /*padding: 6.8vw 6vw 1.466666667vw;*/
     margin-top: 51px;
     margin-top: 6.8vw;
 }
@@ -1937,8 +2003,129 @@ table, th, td {
     width: 38px;
     width: 5.066666667vw;
 }
-
 @media screen and (min-width: 768px) {
+    .consult-flow {
+        background-color: #F0EFEC;
+        margin-top: 45px;
+        border-radius: 10px;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .consult-flow__header {
+        position: relative;
+        background-color: #26997E;
+        border-radius: 10px 10px 0 0;
+        color: #fff;
+        text-align: center;
+        padding-top: 36px;
+        padding-bottom: 36px;
+        position: relative;
+        font-size: 20px;
+        font-family: "RyoGothicPlusN-Medium";
+        line-height: 28px;
+    }
+
+    .consult-flow__header:after {
+        content: " ";
+        position: absolute;
+        bottom: -13px;
+        border-top: 15px solid #26997E;
+        border-right: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-bottom: none;
+    }
+
+    .consult-flow__header > .txt-big {
+        font-size: 34px;
+        line-height: 61px;
+    }
+    .word-wrapper {
+        display: flex;
+        font-size: 17px;
+        line-height: 28px;
+        padding: 16px;
+        justify-content: center;
+    }
+    .word-wrapper > .word1 {
+        color: #FFFF00;
+    }
+    .consult-flow__header > .header-img {
+        position: absolute;
+        top: 56px;
+        right: 22px;
+        width: 21px;
+        height: 21px;
+        cursor: pointer;
+    }
+
+    .consult-flow__content {
+        width: 80%;
+        margin: 45px auto 40px;
+
+    }
+
+    .arrow-down-img > .arrow-down {
+        width: 32px;
+        height: 32px;
+    }
+
+    .arrow-down-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 26px;
+        margin-bottom: 26px;
+    }
+
+    .consult-flow__bot {
+        font-family: 'Noto Serif';
+        font-size: 14px;
+        margin-top: 37px;
+        line-height: 28px;
+    }
+
+    .consult-flow__bot > .list-header {
+        font-family: 'Noto Serif';
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .consult-flow__bot ol, ul {
+        list-style: decimal;
+        padding-left: 20px;
+    }
+
+    .consult-flow__footer {
+        background-color: #26997E;
+        height: 70px;
+        position: relative;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .consult-flow__footer > .footer-text {
+        font-family: 'Yu Gothic Medium';
+        position: absolute;
+        color: #26997E;
+        background-color: white;
+        border-radius: 50px;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        height: 42px;
+        width: 100px;
+        padding: 0 0 15px 0;
+        font-size: 16px;
+        line-height: 60px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .consult-flow__footer .footer-img {
+        width: 18px;
+    }
+}
+@media screen and (min-width: 871px) {
     .consult-flow {
         background-color: #F0EFEC;
         margin-top: 45px;
