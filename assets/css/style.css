@@ -1350,6 +1350,8 @@ table, th, td {
     height: 9.333333333vw;
     font-size: 26px;
     font-size: 3.466666667vw;
+    cursor: pointer
+;
 
 }
 
@@ -1359,6 +1361,7 @@ table, th, td {
     transform: translateY(2.266666667vw);
     font-size: 26px;
     font-size: 3.466666667vw;
+    cursor: pointer;
 }
 
 .td-txt {
@@ -1974,16 +1977,17 @@ table, th, td {
     }
     .word-wrapper {
         display: flex;
-        padding-left: 125px;
         font-size: 20px;
         line-height: 28px;
+        padding: 16px;
+        justify-content: center;
     }
     .word-wrapper > .word1 {
         color: #FFFF00;
     }
     .consult-flow__header > .header-img {
         position: absolute;
-        top: 96px;
+        top: 56px;
         right: 22px;
         width: 21px;
         height: 21px;
@@ -2056,6 +2060,7 @@ table, th, td {
         width: 18px;
     }
 }
+
 /* Download PDF Section */
 .pdf {
     border: 2px solid #C4C4C4;
@@ -2113,7 +2118,9 @@ table, th, td {
         font-size: 16px;
         line-height: 28px;
         text-align: left;
-        padding: 50px 0 50px 190px;
+        padding: 50px 0;
+        margin: 0 auto;
+        max-width: 560px;
     }
     .col-wrapper {
         display: flex;

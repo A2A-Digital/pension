@@ -48,7 +48,7 @@
                     <p class="card-num">1</p>
                 </div>
                 <div class="card-content">
-                    特別勘定の資産の<span class="orange">運用実績に応じて、</span><br>
+                    特別勘定の資産の<span class="orange">運用実績に応じて、</span>
                     年金額・解約返戻金額が<span class="orange">変動します。</span>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                     <p class="card-num">2</p>
                 </div>
                 <div class="card-content">
-                    年金支払開始日前に死亡されたときは、<br>
+                    年金支払開始日前に死亡されたときは、
                     <span class="orange">死亡給付金をお支払いします。</span>
                 </div>
             </div>
@@ -207,7 +207,7 @@
                     <table class="table-sp" width="100%">
                         <tr>
                             <th colspan="2">
-                                <div class="table-sp-header">
+                                <div class="table-sp-header" id="table-sp-header-1">
                                     <div class="table-sp-header__txt">株式型</div>
                                     <div class="table-sp-toggle">
                                         <img id="sec2-t1-arrow" class="table-sp-toggle__img flip"
@@ -236,7 +236,7 @@
                     <table class="table-sp" width="100%">
                         <tr>
                             <th colspan="2">
-                                <div class="table-sp-header">
+                                <div class="table-sp-header" id="table-sp-header-2">
                                     <div class="table-sp-header__txt">日本成長株式型</div>
                                     <div class="table-sp-toggle">
                                         <img class="table-sp-toggle__img"
@@ -266,7 +266,7 @@
                     <table class="table-sp" width="100%">
                         <tr>
                             <th colspan="2">
-                                <div class="table-sp-header">
+                                <div class="table-sp-header" id="table-sp-header-3">
                                     <div class="table-sp-header__txt">世界コア株式型</div>
                                     <div class="table-sp-toggle" id="toggle-8">
                                         <img class="table-sp-toggle__img " id="sec2-t3-arrow"
@@ -299,7 +299,7 @@
                     <table class="table-sp" width="100%">
                         <tr>
                             <th colspan="2">
-                                <div class="table-sp-header">
+                                <div class="table-sp-header" id="table-sp-header-4">
                                     <div class="table-sp-header__txt">世界株式型</div>
                                     <div class="table-sp-toggle" id="toggle-9">
                                         <img class="table-sp-toggle__img" id="sec2-t4-arrow"
@@ -331,7 +331,7 @@
                     <table class="table-sp" width="100%">
                         <tr>
                             <th colspan="2">
-                                <div class="table-sp-header">
+                                <div class="table-sp-header" id="table-sp-header-5">
                                     <div class="table-sp-header__txt">債券型</div>
                                     <div class="table-sp-toggle" id="toggle-10">
                                         <img class="table-sp-toggle__img" id="sec2-t5-arrow"
@@ -360,7 +360,7 @@
                     <table class="table-sp" width="100%">
                         <tr>
                             <th colspan="2">
-                                <div class="table-sp-header">
+                                <div class="table-sp-header" id="table-sp-header-6">
                                     <div class="table-sp-header__txt">世界債権型</div>
                                     <div class="table-sp-toggle" id="toggle-11">
                                         <img class="table-sp-toggle__img" id="sec2-t6-arrow"
@@ -392,7 +392,7 @@
                     <table class="table-sp" width="100%">
                         <tr>
                             <th colspan="2">
-                                <div class="table-sp-header">
+                                <div class="table-sp-header" id="table-sp-header-7">
                                     <div class="table-sp-header__txt">総合型</div>
                                     <div class="table-sp-toggle">
                                         <img class="table-sp-toggle__img" id="sec2-t7-arrow"
@@ -421,7 +421,7 @@
                     <table class="table-sp" width="100%">
                         <tr>
                             <th colspan="2">
-                                <div class="table-sp-header">
+                                <div class="table-sp-header" id="table-sp-header-8">
                                     <div class="table-sp-header__txt">短期金融市場型</div>
                                     <div class="table-sp-toggle" id="toggle-13">
                                         <img class="table-sp-toggle__img" id="sec2-t8-arrow"
@@ -931,7 +931,7 @@
             }
             $("#content-5").slideToggle("slow");
         });
-        $('#sec2-t1-arrow').click(function () {
+        $('#table-sp-header-1').click(function () {
             if ($(this).closest('tbody').next('.section').is(":hidden")) {
                 $('#sec2-t1-arrow').attr('src', 'assets/img/img_circle_arrow_up.png')
             } else {
@@ -942,7 +942,7 @@
                 .next('.section')
                 .slideToggle('fast');
         });
-        $('#sec2-t2-arrow').click(function () {
+        $('#table-sp-header-2').click(function () {
             if ($(this).closest('tbody').next('.section').is(":hidden")) {
                 $('#sec2-t2-arrow').attr('src', 'assets/img/img_circle_arrow_up.png')
             } else {
@@ -953,7 +953,7 @@
                 .next('.section')
                 .slideToggle('fast');
         });
-        $('#sec2-t3-arrow').click(function () {
+        $('#table-sp-header-3').click(function () {
             if ($(this).closest('tbody').next('.section').is(":hidden")) {
                 $('#sec2-t3-arrow').attr('src', 'assets/img/img_circle_arrow_up.png')
             } else {
@@ -964,7 +964,7 @@
                 .next('.section')
                 .slideToggle('fast');
         });
-        $('#sec2-t4-arrow').click(function () {
+        $('#table-sp-header-4').click(function () {
             if ($(this).closest('tbody').next('.section').is(":hidden")) {
                 $('#sec2-t4-arrow').attr('src', 'assets/img/img_circle_arrow_up.png')
             } else {
@@ -975,7 +975,7 @@
                 .next('.section')
                 .slideToggle('fast');
         });
-        $('#sec2-t5-arrow').click(function () {
+        $('#table-sp-header-5').click(function () {
             if ($(this).closest('tbody').next('.section').is(":hidden")) {
                 $('#sec2-t5-arrow').attr('src', 'assets/img/img_circle_arrow_up.png')
             } else {
@@ -986,7 +986,7 @@
                 .next('.section')
                 .slideToggle('fast');
         });
-        $('#sec2-t6-arrow').click(function () {
+        $('#table-sp-header-6').click(function () {
             if ($(this).closest('tbody').next('.section').is(":hidden")) {
                 $('#sec2-t6-arrow').attr('src', 'assets/img/img_circle_arrow_up.png')
             } else {
@@ -997,7 +997,7 @@
                 .next('.section')
                 .slideToggle('fast');
         });
-        $('#sec2-t7-arrow').click(function () {
+        $('#table-sp-header-7').click(function () {
             if ($(this).closest('tbody').next('.section').is(":hidden")) {
                 $('#sec2-t7-arrow').attr('src', 'assets/img/img_circle_arrow_up.png')
             } else {
@@ -1008,7 +1008,7 @@
                 .next('.section')
                 .slideToggle('fast');
         });
-        $('#sec2-t8-arrow').click(function () {
+        $('#table-sp-header-8').click(function () {
             if ($(this).closest('tbody').next('.section').is(":hidden")) {
                 $('#sec2-t8-arrow').attr('src', 'assets/img/img_circle_arrow_up.png')
             } else {
