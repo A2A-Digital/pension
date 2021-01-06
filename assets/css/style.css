@@ -522,7 +522,7 @@ h2 {
 .card-content {
     font-family: "RyoGothicPlusN-Medium";
     font-size: 23px;
-    font-size: 3vw;
+    font-size: 2.8vw;
     line-height: 4.267vw;
     color: #2b4a7e;
 }
@@ -2392,7 +2392,7 @@ table, th, td {
 @media screen and (min-width: 758px) {
     .consider-point {
         font-family: 'RyoGothicPlusN-Medium';
-        font-size: 40px;
+        font-size: 38px;
         margin-top: 57px;
         line-height: 62px;
         margin-bottom: 36px;
