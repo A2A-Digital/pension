@@ -814,14 +814,20 @@ h2 {
     margin-top: 40px;
     margin-top: 5.333333333vw;
 }
-
 @media screen and (min-width: 768px) {
+    .old-planning > .title {
+        font-size: 30px;
+    }
+    .old-planning > .description {
+        font-size: 3vw;
+    }
+}
+@media screen and (min-width: 956px) {
     .insurance {
         font-family: 'RyoGothicPlusN-Medium';
         margin-top: 50px;
         text-align: center;
     }
-
     .insurance__img__pc {
         display: block !important;
         margin-top: 45px;
@@ -865,7 +871,7 @@ h2 {
 
     .old-planning > .title {
         font-family: 'RyoGothicPlusN-Bold';
-        font-size: 30px;
+        font-size: 42px;
         line-height: 62px;
         color: #008767;
         margin-bottom: 30px;
