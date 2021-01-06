@@ -1393,8 +1393,8 @@ table, th, td {
 
 .table-sp {
     display: table;
-    /*padding: 51px 45px 11px;*/
-    /*padding: 6.8vw 6vw 1.466666667vw;*/
+    padding: 51px 45px 11px;
+    padding: 6.8vw 6vw 1.466666667vw;
     margin-top: 51px;
     margin-top: 6.8vw;
 }
