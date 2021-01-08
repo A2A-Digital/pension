@@ -2687,7 +2687,7 @@ table, th, td {
         color: #FF1505;
         margin-bottom: 20px;
         line-height: 52px;
-        font-weight: normal;
+        font-weight: bold;
     }
     .consult-line-content {
         border: 1px solid #A0A0A0;
@@ -2699,7 +2699,7 @@ table, th, td {
         font-size: 26px;
         line-height: 25px;
         text-align: center;
-        font-weight: normal;
+        font-weight: bold;
     }
     .content-2-wrapper {
         display: flex;
@@ -2723,7 +2723,7 @@ table, th, td {
         font-size: 16px;
         line-height: 18px;
         text-align: center;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
