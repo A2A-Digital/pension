@@ -27,11 +27,11 @@
 /*Common Styles*/
 body {
     color: #000000;
-    font-family: "りょうゴシック PlusN", "RyoGothicPlusN-Reegular", "Noto Serif", "Arial", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    font-family: "りょうゴシック PlusN", "RyoGothicPlusN-Reegular", "Noto Sans", "Arial", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
 }
 
 * {
-    font-family: "りょうゴシック PlusN", "RyoGothicPlusN-Reegular", "Noto Serif", "Arial", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    font-family: "りょうゴシック PlusN", "RyoGothicPlusN-Reegular", "Noto Sans", "Arial", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
 }
 
 .lazy-load {
@@ -1350,7 +1350,7 @@ h2 {
         padding-top: 36px;
         padding-bottom: 36px;
         position: relative;
-        font-family: 'Noto Sans';
+        font-family: 'Noto Sans', sans-serif;
     }
 
     .asset-mng__header > .number {
@@ -1770,7 +1770,7 @@ table, th, td {
     transform: translateY(-22%);
 }
 .choice-content .description {
-    font-family: 'Noto Serif';
+    font-family: 'Noto Sans', sans-serif;
     text-align: center;
     font-size: 15px;
     font-size: 2vw;
@@ -1857,7 +1857,7 @@ table, th, td {
         transform: translateY(-22%);
     }
     .choice-content .description {
-        font-family: 'Noto Serif';
+        font-family: 'Noto Sans', sans-serif;
         text-align: center;
         font-size: 12px;
         line-height: 26px;
@@ -2251,14 +2251,14 @@ table, th, td {
     }
 
     .consult-flow__bot {
-        font-family: 'Noto Serif';
+        font-family: 'Noto Sans', sans-serif;
         font-size: 14px;
         margin-top: 37px;
         line-height: 28px;
     }
 
     .consult-flow__bot > .list-header {
-        font-family: 'Noto Serif';
+        font-family: 'Noto Sans', sans-serif;
         font-size: 14px;
         line-height: 23px;
     }
@@ -2373,14 +2373,14 @@ table, th, td {
     }
 
     .consult-flow__bot {
-        font-family: 'Noto Serif';
+        font-family: 'Noto Sans', sans-serif;
         font-size: 14px;
         margin-top: 37px;
         line-height: 28px;
     }
 
     .consult-flow__bot > .list-header {
-        font-family: 'Noto Serif';
+        font-family: 'Noto Sans', sans-serif;
         font-size: 14px;
         line-height: 23px;
     }
@@ -2615,7 +2615,7 @@ table, th, td {
 }
 /* Consult Line Section */
 .consult-line {
-    font-family: 'Noto';
+    font-family: 'Noto S';
     font-weight: bold;
 }
 .consult-line-header {
@@ -2682,7 +2682,7 @@ table, th, td {
 }
 @media screen and (min-width: 768px) {
     .consult-line {
-        font-family: 'Noto';
+        font-family: 'Noto Sans', sans-serif;
         font-weight: bold;
     }
     .consult-line-header {
