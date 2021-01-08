@@ -2614,8 +2614,11 @@ table, th, td {
     }
 }
 /* Consult Line Section */
+.consult-line {
+    font-family: 'Noto';
+    font-weight: bold;
+}
 .consult-line-header {
-    font-family: 'Yu Gothic Medium';
     font-size: 44px;
     font-size: 5.8vw;
     text-align: center;
@@ -2627,7 +2630,6 @@ table, th, td {
     font-weight: bold;
 }
 .consult-line-content {
-    font-family: 'Yu Gothic Medium';
     border: 1px solid #A0A0A0;
     border: 0.133333333vw solid #A0A0A0;
     border-radius: 5px;
@@ -2638,7 +2640,6 @@ table, th, td {
     margin-bottom: 3.333333333vw;
 }
 .content-txt-1 {
-    font-family: 'Yu Gothic Medium', 'Noto Sans';
     font-size: 30px;
     font-size: 4vw;
     line-height: 52px;
@@ -2672,7 +2673,6 @@ table, th, td {
     text-decoration: none;
 }
 .content-txt-3 {
-    font-family: 'Yu Gothic Medium';
     font-size: 24px;
     font-size: 3.2vw;
     line-height: 42px;
@@ -2681,8 +2681,11 @@ table, th, td {
     font-weight: bold;
 }
 @media screen and (min-width: 768px) {
+    .consult-line {
+        font-family: 'Noto';
+        font-weight: bold;
+    }
     .consult-line-header {
-        font-family: 'Yu Gothic Medium';
         font-size: 30px;
         text-align: center;
         color: #FF1505;
@@ -2690,15 +2693,13 @@ table, th, td {
         line-height: 52px;
         font-weight: bold;
     }
-    .consult-line-content {
-        font-family: 'Yu Gothic Medium';
+    .consult-line-content {';
         border: 1px solid #A0A0A0;
         border-radius: 5px;
         padding: 32px 0;
         margin-bottom: 25px;
     }
     .content-txt-1 {
-        font-family: 'Yu Gothic Medium';
         font-size: 26px;
         line-height: 25px;
         text-align: center;
@@ -2723,7 +2724,6 @@ table, th, td {
         font-weight: normal;
     }
     .content-txt-3 {
-        font-family: 'Yu Gothic Medium';
         font-size: 16px;
         line-height: 18px;
         text-align: center;
