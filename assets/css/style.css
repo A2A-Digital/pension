@@ -2000,10 +2000,11 @@ table, th, td {
     }
 
     .sec-3__detail-1 {
+        font-family: 'Yu Gothic Medium';
         font-size: 14px;
         line-height: 28px;
         margin-top: 0;
-        padding: 27px 26px 10px 30px;
+        padding: 27px 26px 27px 30px;
     }
 
     .sec-3__detail-1 > .big-txt {
