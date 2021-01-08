@@ -2615,7 +2615,7 @@ table, th, td {
 }
 /* Consult Line Section */
 .consult-line {
-    font-family: 'Noto S';
+    font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
 }
 .consult-line-header {
