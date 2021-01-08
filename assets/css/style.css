@@ -1350,6 +1350,7 @@ h2 {
         padding-top: 36px;
         padding-bottom: 36px;
         position: relative;
+        font-family: 'Noto Sans';
     }
 
     .asset-mng__header > .number {
@@ -1937,10 +1938,11 @@ table, th, td {
 
 .sec-3__detail-1 {
     font-size: 18px;
-    font-size: 2vw;
+    font-size: 2.3vw;
     line-height: 38px;
     line-height: 5vw;
-    padding: 15px 15px 0 15px;
+    padding: 25px 25px 25px 30px;
+    padding: 3.333333333vw 3.333333333vw 3.333333333vw 4vw;
     background-color: #EAEAEA;
     text-align: left;
     margin-top: 26px;
@@ -2612,7 +2614,7 @@ table, th, td {
 }
 /* Consult Line Section */
 .consult-line-header {
-    font-family: "Yu Gothic Medium";
+    font-family: 'Noto Sans';
     font-size: 44px;
     font-size: 5.8vw;
     text-align: center;
@@ -2635,6 +2637,7 @@ table, th, td {
     margin-bottom: 3.333333333vw;
 }
 .content-txt-1 {
+    font-family: 'Noto Sans';
     font-size: 30px;
     font-size: 4vw;
     line-height: 52px;
@@ -2668,6 +2671,7 @@ table, th, td {
     text-decoration: none;
 }
 .content-txt-3 {
+    font-family: 'Noto Sans';
     font-size: 24px;
     font-size: 3.2vw;
     line-height: 42px;
