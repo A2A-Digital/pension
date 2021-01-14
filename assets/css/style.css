@@ -1623,11 +1623,12 @@ table, th, td {
     font-size: 22px;
     font-size: 2.933333333vw;
 }
-
 .td-title {
     font-size: 22px;
     font-size: 2.933333333vw;
     font-family: 'Yu Gothic Medium';
+    line-height: 27px;
+    line-height: 3.6vw;
 }
 
 .table-sp-content {
