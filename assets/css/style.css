@@ -1631,18 +1631,33 @@ table, th, td {
 }
 
 .table-sp-content {
-    font-weight: normal;
-    padding-top: 15.6px;
-    padding-top: 2.08vw;
+    padding-top: 30px;
+    padding-top: 4vw;
     margin-bottom: 0px;
     margin-bottom: 0vw;
     padding-bottom: 0px;
     padding-bottom: 0vw;
-    font-size: 20px;
-    font-size: 2.5vw;
+}
+.table-sp-content > .content-container {
+    font-family: 'Yu Gothic Medium';
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.table-sp-content .content-ttl {
+    margin-right: 9.3px;
+    margin-right: 1.24vw;
+    font-size: 22px;
+    font-size: 2.933333333vw;
+    line-height: 27px;
     line-height: 3.6vw;
 }
-
+.table-sp-content .content-desc {
+    font-size: 20px;
+    font-size: 2.666666667vw;
+    line-height: 27px;
+    line-height: 3.6vw;
+}
 .table-sp-toggle__img {
     width: 40px;
     width: 5.333333333vw;
