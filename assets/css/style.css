@@ -1618,8 +1618,6 @@ table, th, td {
 
 .td-txt .spacial {
     position: relative;
-    left: -15px;
-    left: -2vw;
     font-size: 22px;
     font-size: 2.933333333vw;
 }
