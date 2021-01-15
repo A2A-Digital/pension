@@ -706,7 +706,7 @@ h2 {
 }
 
 .insurance__text::before {
-    background-image: url(../../assets/img/arrow-down-green.png);
+    background-image: url(../../assets/img/arrow-down-green-thick.png);
     background-size: 15px 15px;
     background-size: 2vw 2vw;
     display: inline-block;
@@ -855,7 +855,7 @@ h2 {
     }
 
     .insurance__text::before {
-        background-image: url(../../assets/img/arrow-down-green.png);
+        background-image: url(../../assets/img/arrow-down-green-thick.png);
         background-size: 15px 15px;
         display: inline-block;
         width: 15px;
