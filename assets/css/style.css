@@ -394,7 +394,6 @@ h2 {
     line-height: 8vw;
     color: #2B4A7E;
     position: relative;
-    left: -2.933333333vw;
     text-shadow: 1px 0 0 #D5E2DB, 0 1px 0 #D5E2DB, -1px 0 0 #D5E2DB, 0 -1px 0 #D5E2DB;
 }
 
@@ -444,7 +443,6 @@ h2 {
         font-size: 38px;
         line-height: 48px;
         text-shadow: unset;
-        left: -25px;
     }
 }
 
