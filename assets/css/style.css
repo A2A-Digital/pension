@@ -63,6 +63,14 @@ body {
 .inactive {
     display: none;
 }
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* .wrapper
 ----------------------------------------------------------  */
 
@@ -2483,15 +2491,33 @@ table, th, td {
     .pdf {
         padding-bottom: 0;
     }
-    .pdf__txt-1-pc {
-        font-family: "Yu Gothic Medium";
-        color: black;
-        font-size: 16px;
-        line-height: 28px;
-        text-align: left;
-        padding: 50px 0;
+    .pdf {
         margin: 0 auto;
-        max-width: 560px;
+        max-width: 1000px;
+        text-align: center;
+        padding: 50px 0;
+    }
+    .pdf-txt-pc {
+        font-family: "Yu Gothic Medium";
+        color: #008667;
+        font-size: 24px;
+        line-height: 62px;
+        margin-bottom: 30px;
+
+    }
+    .pdf-txt-pc__link {
+        font-size: 16px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+    .pdf-txt-pc__link > p {
+        line-height: 28px;
+    }
+    .pdf-txt-pc__link > a {
+        line-height: 41px;
+        text-underline-position: under;
     }
     .col-wrapper {
         display: flex;
