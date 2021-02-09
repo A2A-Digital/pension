@@ -2502,7 +2502,7 @@ table, th, td {
         color: #008667;
         font-size: 24px;
         line-height: 62px;
-        margin-bottom: 30px;
+        font-weight: 600;
 
     }
     .pdf-txt-pc__link {
