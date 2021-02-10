@@ -415,10 +415,12 @@ h2 {
         display: block !important;
         position: absolute;
         z-index: -1;
-        width: 100%;
         height: 440px;
         object-fit: cover;
         object-position: 66% 50%;
+        top: 0;
+        left: 35%;
+        transform: translate(-50%);
     }
 
     .mv-img-sp {
@@ -453,7 +455,11 @@ h2 {
         text-shadow: unset;
     }
 }
-
+@media screen and (min-width: 1000px){
+    .mv-img-pc {
+        left: 50%;
+    }
+}
 /*@media (min-width: 751px) and (max-width: 1599px) {*/
 /*    .mv-img-sp {*/
 /*        display: block !important;*/
